@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"7508d1cbed9d7efa","x":-1089,"y":-1487,"width":325,"height":195,"type":"file","file":"00-obsidian的使用/01-markdown语法.md"},
+		{"id":"4e8a1456923e5a4d","x":-1089,"y":-1140,"width":325,"height":169,"type":"file","file":"00-obsidian的使用/02-基础设置.md"},
+		{"id":"808d488a2d15ec79","x":-1089,"y":-876,"width":325,"height":236,"type":"file","file":"00-obsidian的使用/03-插件.md"},
+		{"id":"b3096de7e01ebd95","x":-1493,"y":-1080,"width":194,"height":50,"type":"text","text":"obsidian的使用"}
+	],
+	"edges":[
+		{"id":"7f2f0fa2712da536","fromNode":"b3096de7e01ebd95","fromSide":"right","toNode":"7508d1cbed9d7efa","toSide":"left"},
+		{"id":"037777f908f6553b","fromNode":"b3096de7e01ebd95","fromSide":"right","toNode":"4e8a1456923e5a4d","toSide":"left"},
+		{"id":"0eb060a728028d24","fromNode":"b3096de7e01ebd95","fromSide":"right","toNode":"808d488a2d15ec79","toSide":"left"}
+	]
+}

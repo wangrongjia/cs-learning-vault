@@ -1,0 +1,184 @@
+{
+  "main": {
+    "id": "e6fc9adaa878e30c",
+    "type": "split",
+    "children": [
+      {
+        "id": "5c25492c5e887ca1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "841ad3e6c87cdaae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3fef96516796134",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "02-编程语言/01-JAVA/05-mybatis/assets/mybatis符号区别.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "52913f88afd72383",
+    "type": "split",
+    "children": [
+      {
+        "id": "1f8277f82f06d066",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c823e3ac3528c411",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d9e8d951a638fb10",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7f48e62d7a35d223",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 265.5
+  },
+  "right": {
+    "id": "1a7c911aceac4d6f",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b07808d9984f751",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8efbdf5b652f6c50",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "44cc4a53c394422b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d70e71304bf0d8a0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "77a2660c7f6cd88c",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md"
+              }
+            }
+          },
+          {
+            "id": "ec59bf5a33b0fa2d",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "canvas:新建白板": false,
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "workspaces:管理工作区布局": false,
+      "random-note:开始漫游笔记": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "841ad3e6c87cdaae",
+  "lastOpenFiles": [
+    "02-编程语言/01-JAVA/02-多线程/03-ThreadLocal.md",
+    "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
+    "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
+    "02-编程语言/01-JAVA/04-springboot/01-ss.md",
+    "02-编程语言/01-JAVA/05-mybatis/未命名.md",
+    "02-编程语言/01-JAVA/05-mybatis/assets/mybatis符号区别.png",
+    "02-编程语言/01-JAVA/03-spring/05-事务.md",
+    "02-编程语言/01-JAVA/01-JDK版本特性/01-java8特性.md",
+    "02-编程语言/01-JAVA/01-集合/map.md",
+    "02-编程语言/01-JAVA/03-spring/99-xx.md"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "attachmentFolderPath": "./assets",
+  "newFileLocation": "current",
+  "trashOption": "local",
+  "alwaysUpdateLinks": true,
+  "showLineNumber": false,
+  "livePreview": true,
+  "spellcheck": true,
+  "spellcheckLanguages": [
+    "zh-CN",
+    "en-CA"
+  ],
+  "promptDelete": false
+}
