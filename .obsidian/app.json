@@ -5,10 +5,7 @@
   "alwaysUpdateLinks": true,
   "showLineNumber": false,
   "livePreview": true,
-  "spellcheck": true,
-  "spellcheckLanguages": [
-    "zh-CN",
-    "en-CA"
-  ],
+  "spellcheck": false,
+  "spellcheckLanguages": null,
   "promptDelete": false
 }
