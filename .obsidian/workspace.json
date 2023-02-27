@@ -13,25 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
+                "file": "05-中间件/02-mq/01-rocketmq/02-事务消息.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b6d8e5fdf0edbdc5",
+            "id": "802624082475205f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
+                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "878e8650f007dcc3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "96-计算机原理/01-操作系统/02-linux常用命令.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "abb09cf118670fcb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "04-数据库/01-mysql/01-索引结构.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
+                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
+                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md"
+                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md"
               }
             }
           },
@@ -170,13 +195,36 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "774ddbd1f0b9beaf",
+  "active": "802624082475205f",
   "lastOpenFiles": [
+    "05-中间件/02-mq/01-rocketmq/assets/延迟消息在Broker中流转图.png",
+    "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
+    "05-中间件/02-mq/01-rocketmq/assets/延迟队列名称.png",
+    "05-中间件/02-mq/01-rocketmq/02-事务消息.md",
+    "98-面试技巧/01-面试记录.md",
+    "96-计算机原理/01-操作系统/02-linux常用命令.md",
+    "04-数据库/01-mysql/01-索引结构.md",
+    "04-数据库/01-mysql/02-慢sql,锁表问题.md",
+    "95-产线实践/01-慢接口.md",
+    "04-数据库/01-mysql/assets/b+树.png",
+    "04-数据库/01-mysql/assets/B树.png",
+    "04-数据库/01-mysql/assets",
+    "04-数据库/01-mysql/01-索引.md",
+    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
+    "95-产线实践",
+    "05-中间件/02-mq/01-rocketmq/00-rocketmq基本使用.md",
+    "05-中间件/03-redis/03-分布式锁.md",
+    "05-中间件/03-redis/assets/Pasted image 20230227150714.png",
+    "05-中间件/03-redis/assets/Redisson底层原理图.png",
+    "05-中间件/03-redis/assets",
+    "05-中间件/03-redis",
+    "96-计算机原理/01-操作系统/01-linux线程间同步的方式.md",
+    "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
+    "96-计算机原理/01-操作系统",
+    "96-计算机原理",
     "02-编程语言/01-JAVA/02-多线程/assets/线程状态图2.png",
     "02-编程语言/01-JAVA/02-多线程/assets/Pasted image 20230227091532.png",
-    "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
     "97-运维/01-容器化/01-docker/01-docker入门.md",
-    "98-面试技巧/01-面试记录.md",
     "98-面试技巧/02-介绍项目.md",
     "06-分布式架构/01-微服务/01-微服务划分依据.md",
     "02-编程语言/01-JAVA/02-多线程/assets/线程状态图.png",
@@ -186,34 +234,13 @@
     "06-分布式架构/01-微服务",
     "06-分布式架构",
     "97-运维/01-容器化/01-docker/assets/Pasted image 20230226222446.png",
-    "97-运维/01-容器化/01-docker/assets/Pasted image 20230226222414.png",
-    "97-运维/01-容器化/01-docker/assets",
-    "97-运维/01-容器化/01-docker",
-    "97-运维/01-容器化",
-    "97-运维",
     "02-编程语言/01-JAVA/04-springboot/01-ss.md",
     "02-编程语言/01-JAVA/00-基础/01-xx.md",
-    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
     "02-编程语言/01-JAVA/03-spring/03-IOC.md",
     "02-编程语言/01-JAVA/03-spring/00-spring.md",
     "02-编程语言/01-JAVA/03-spring/01-bean的生命周期.md",
     "02-编程语言/01-JAVA/03-spring/00-spring核心思想.md",
-    "05-中间件/02-mq/01-rocketmq/02-事务消息.md",
-    "05-中间件/02-mq/01-rocketmq/00-rocketmq基本使用.md",
-    "05-中间件/02-mq/01-rocketmq/assets/rocketmq架构图.png",
-    "05-中间件/02-mq/01-rocketmq/assets/rocketmq模型关系图.png",
-    "05-中间件/02-mq/01-rocketmq/assets",
     "02-编程语言/01-JAVA/03-spring/99-xx.md",
-    "02-编程语言/01-JAVA/03-spring/02-DI.md",
-    "02-编程语言/01-JAVA/05-mybatis/assets/mybatis符号区别.png",
-    "05-中间件/02-mq/01-rocketmq",
-    "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
-    "98-面试技巧/面试记录.md",
-    "98-面试技巧/面试技巧.md",
-    "02-编程语言/01-JAVA/02-多线程/03-ThreadLocal.md",
-    "02-编程语言/01-JAVA/05-mybatis/未命名.md",
-    "02-编程语言/01-JAVA/03-spring/05-事务.md",
-    "02-编程语言/01-JAVA/01-JDK版本特性/01-java8特性.md",
-    "02-编程语言/01-JAVA/01-集合/map.md"
+    "02-编程语言/01-JAVA/03-spring/02-DI.md"
   ]
 }
