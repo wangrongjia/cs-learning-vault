@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "68f2e074a27440c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "97-运维/01-容器化/01-docker/01-docker入门.md",
+                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md",
+                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md",
+                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md"
+                "file": "02-编程语言/01-JAVA/02-多线程/02-多线程.md"
               }
             }
           },
@@ -184,11 +172,22 @@
   },
   "active": "774ddbd1f0b9beaf",
   "lastOpenFiles": [
+    "02-编程语言/01-JAVA/02-多线程/assets/线程状态图2.png",
+    "02-编程语言/01-JAVA/02-多线程/assets/Pasted image 20230227091532.png",
+    "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
     "97-运维/01-容器化/01-docker/01-docker入门.md",
+    "98-面试技巧/01-面试记录.md",
+    "98-面试技巧/02-介绍项目.md",
+    "06-分布式架构/01-微服务/01-微服务划分依据.md",
+    "02-编程语言/01-JAVA/02-多线程/assets/线程状态图.png",
+    "_v_images/线程状态图_1535977846_25296.png.md",
+    "_v_images",
+    "02-编程语言/01-JAVA/02-多线程/assets",
+    "06-分布式架构/01-微服务",
+    "06-分布式架构",
     "97-运维/01-容器化/01-docker/assets/Pasted image 20230226222446.png",
     "97-运维/01-容器化/01-docker/assets/Pasted image 20230226222414.png",
     "97-运维/01-容器化/01-docker/assets",
-    "98-面试技巧/01-面试记录.md",
     "97-运维/01-容器化/01-docker",
     "97-运维/01-容器化",
     "97-运维",
@@ -208,12 +207,10 @@
     "02-编程语言/01-JAVA/03-spring/02-DI.md",
     "02-编程语言/01-JAVA/05-mybatis/assets/mybatis符号区别.png",
     "05-中间件/02-mq/01-rocketmq",
-    "05-中间件/02-mq",
     "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
     "98-面试技巧/面试记录.md",
     "98-面试技巧/面试技巧.md",
     "02-编程语言/01-JAVA/02-多线程/03-ThreadLocal.md",
-    "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
     "02-编程语言/01-JAVA/05-mybatis/未命名.md",
     "02-编程语言/01-JAVA/03-spring/05-事务.md",
     "02-编程语言/01-JAVA/01-JDK版本特性/01-java8特性.md",
