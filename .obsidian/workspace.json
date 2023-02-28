@@ -13,43 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-中间件/02-mq/01-rocketmq/02-事务消息.md",
+                "file": "98-面试技巧/01-面试记录.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "802624082475205f",
+            "id": "dec2ddeb5622a30c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "878e8650f007dcc3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "96-计算机原理/01-操作系统/02-linux常用命令.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "abb09cf118670fcb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04-数据库/01-mysql/01-索引结构.md",
+                "file": "06-分布式架构/01-微服务/03-负载均衡.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
+                "file": "06-分布式架构/01-微服务/03-负载均衡.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
+                "file": "06-分布式架构/01-微服务/03-负载均衡.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05-中间件/02-mq/01-rocketmq/03-延迟消息.md"
+                "file": "06-分布式架构/01-微服务/03-负载均衡.md"
               }
             }
           },
@@ -195,14 +171,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "802624082475205f",
+  "active": "dec2ddeb5622a30c",
   "lastOpenFiles": [
-    "05-中间件/02-mq/01-rocketmq/assets/延迟消息在Broker中流转图.png",
-    "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
-    "05-中间件/02-mq/01-rocketmq/assets/延迟队列名称.png",
-    "05-中间件/02-mq/01-rocketmq/02-事务消息.md",
     "98-面试技巧/01-面试记录.md",
+    "06-分布式架构/01-微服务/03-负载均衡.md",
+    "05-中间件/02-mq/01-rocketmq/02-事务消息.md",
     "96-计算机原理/01-操作系统/02-linux常用命令.md",
+    "05-中间件/02-mq/01-rocketmq/03-延迟消息.md",
+    "05-中间件/02-mq/01-rocketmq/assets/延迟消息在Broker中流转图.png",
+    "05-中间件/02-mq/01-rocketmq/assets/延迟队列名称.png",
     "04-数据库/01-mysql/01-索引结构.md",
     "04-数据库/01-mysql/02-慢sql,锁表问题.md",
     "95-产线实践/01-慢接口.md",
