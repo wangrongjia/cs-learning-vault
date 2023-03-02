@@ -13,37 +13,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md",
+                "file": "02-编程语言/01-JAVA/06-jvm/01-JVM启动参数.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a3516546292d6b3f",
+            "id": "7ca3bf4d69a83839",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "96-计算机原理/01-操作系统/02-linux常用命令.md",
+                "file": "02-编程语言/01-JAVA/06-jvm/02-内存分配.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9e250aa2f88bb44e",
+            "id": "707f33cabf205d71",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "95-产线实践/01-慢接口.md",
+                "file": "02-编程语言/01-JAVA/06-jvm/03-垃圾回收.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ac1b2d4eb0665a6e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-编程语言/01-JAVA/06-jvm/04-类加载机制.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6ec58106bda13b45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "02-编程语言/01-JAVA/06-jvm/00-总览.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -120,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md",
+                "file": "02-编程语言/01-JAVA/06-jvm/00-总览.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md",
+                "file": "02-编程语言/01-JAVA/06-jvm/00-总览.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "98-面试技巧/01-面试记录.md"
+                "file": "02-编程语言/01-JAVA/06-jvm/00-总览.md"
               }
             }
           },
@@ -182,10 +207,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "774ddbd1f0b9beaf",
+  "active": "6ec58106bda13b45",
   "lastOpenFiles": [
-    "96-计算机原理/01-操作系统/02-linux常用命令.md",
+    "02-编程语言/01-JAVA/06-jvm/04-类加载机制.md",
+    "02-编程语言/01-JAVA/06-jvm/00-总览.md",
+    "02-编程语言/01-JAVA/06-jvm/03-垃圾回收.md",
+    "02-编程语言/01-JAVA/06-jvm/02-内存分配.md",
+    "02-编程语言/01-JAVA/06-jvm/01-JVM启动参数.md",
+    "02-编程语言/01-JAVA/06-jvm",
     "98-面试技巧/01-面试记录.md",
+    "02-编程语言/01-JAVA/03-spring/0401-aop.md",
+    "04-数据库/02-oracle/99-批量执行sql脚本.md",
+    "04-数据库/02-oracle/01-基本概念.md",
+    "04-数据库/02-oracle",
+    "02-编程语言/01-JAVA/03-spring/04-AOP.md",
+    "02-编程语言/01-JAVA/03-spring/06-springMVC.md",
+    "02-编程语言/01-JAVA/03-spring/assets/Pasted image 20230301153532.png",
+    "96-计算机原理/01-操作系统/02-linux常用命令.md",
     "95-产线实践/01-慢接口.md",
     "04-数据库/01-mysql/02-慢sql,锁表问题.md",
     "06-分布式架构/99-雪花id.md",
@@ -206,29 +244,16 @@
     "04-数据库/01-mysql/assets/B树.png",
     "04-数据库/01-mysql/assets",
     "04-数据库/01-mysql/01-索引.md",
-    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
     "95-产线实践",
-    "05-中间件/02-mq/01-rocketmq/00-rocketmq基本使用.md",
-    "05-中间件/03-redis/03-分布式锁.md",
     "05-中间件/03-redis/assets/Pasted image 20230227150714.png",
     "05-中间件/03-redis/assets/Redisson底层原理图.png",
     "05-中间件/03-redis/assets",
     "05-中间件/03-redis",
-    "96-计算机原理/01-操作系统/01-linux线程间同步的方式.md",
     "96-计算机原理/01-操作系统",
     "96-计算机原理",
     "02-编程语言/01-JAVA/02-多线程/assets/线程状态图2.png",
     "02-编程语言/01-JAVA/02-多线程/assets/Pasted image 20230227091532.png",
-    "97-运维/01-容器化/01-docker/01-docker入门.md",
-    "98-面试技巧/02-介绍项目.md",
-    "06-分布式架构/01-微服务/01-微服务划分依据.md",
-    "02-编程语言/01-JAVA/02-多线程/assets/线程状态图.png",
-    "_v_images/线程状态图_1535977846_25296.png.md",
     "_v_images",
-    "02-编程语言/01-JAVA/02-多线程/assets",
-    "06-分布式架构/01-微服务",
-    "06-分布式架构",
-    "02-编程语言/01-JAVA/04-springboot/01-ss.md",
-    "02-编程语言/01-JAVA/03-spring/03-IOC.md"
+    "02-编程语言/01-JAVA/02-多线程/assets"
   ]
 }
