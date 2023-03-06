@@ -1,5 +1,18 @@
-多线程操作hashMap死循环原因  
+## hashmap
+
+https://zhuanlan.zhihu.com/p/79219960
+
+### 多线程操作hashMap死循环原因  
 hashMap 链表+数组 扩容时，需要从新计算hash,线程1和2同时进入扩容操作，2挂起，1扩容完毕，2继续，导致环形链表，get操作就会死循环
+
+put流程图
+![[hashmap的put操作流程图.png]]
+
+### 使用hashmap要注意哪些问题
+避免hash冲突 重写hashCode equals
+
+## concurrentHashMap
+https://juejin.cn/post/6844903951385493518#heading-1
 
 concurrentHashMap相关
 
@@ -9,6 +22,3 @@ concurrentHashMap相关
 CAS采用乐观锁思想达到lock free
 
 CAS:CAS有3个操作数，内存值V，旧的预期值A，要修改的新值B。当且仅当预期值A和内存值V相同时，将内存值V修改为B，否则什么都不做
-
-## concurrentHashMap
-https://juejin.cn/post/6844903951385493518#heading-1

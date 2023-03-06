@@ -273,5 +273,75 @@ public class VerificationAspect {
 }
 ```
 
+## 切面的基本使用
+```java
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class LoggingAspect {
+
+  @Before("execution(* com.example.service.*.*(..))")
+  public void logBefore(JoinPoint joinPoint) {
+  // 这段代码定义了一个切面，其中定义了一个 `@Before` 注解的方法，在 `com.example.service` 包中所有方法执行前都会被调用。
+    System.out.println("Entering method: " + joinPoint.getSignature().getName());
+  }
+}
+```
+1.  `@Before`：在方法执行前运行
+2.  `@After`：在方法执行后运行
+3.  `@Around`：在方法执行前和执行后都运行
+4.  `@AfterReturning`：在方法正常执行后运行
+5.  `@AfterThrowing`：在方法抛出异常后运行
+6.  `@Pointcut`：定义切入点表达式，可以多次引用
+通过使用这些注解，你可以非常方便地在切面中实现各种功能，例如**日志记录、安全性校验、性能监控**等。
 
 
+这段代码定义了一个切面，它的作用是在执行 `com.example.service` 包中的所有方法时统计并输出方法的执行时间。通过使用 `@Around` 注解，切面方法会在目标方法执行前和执行后都被调用，并可以通过调用 `joinPoint.proceed()` 方法来执行目标方法。
+```java
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.aspectj.lang.annotation.Around;
+import org.aspectj.lang.annotation.Aspect;
+import org.springframework.stereotype.Component;
+
+@Aspect
+@Component
+public class PerformanceAspect {
+
+  @Around("execution(* com.example.service.*.*(..))")
+  public Object logExecutionTime(ProceedingJoinPoint joinPoint) throws Throwable {
+    long start = System.currentTimeMillis();
+    Object result = joinPoint.proceed();
+    long elapsedTime = System.currentTimeMillis() - start;
+    System.out.println("Method execution time: " + elapsedTime + " ms");
+    return result;
+  }
+}
+
+```
+
+## aop的实现原理
+
+Spring AOP 的实现原理是**动态代理**。
+
+在 AOP 中，通常将切面称为“**额外的功能**”，而将要在其上添加切面的类或方法称为“目标对象”。在 Spring AOP 中，目标对象通过代理对象来实现，即在**目标对象外面包装了一层代理对象，在代理对象中实现了切面功能**。
+
+当你在代码中调用目标对象的方法时，**实际上是调用的代理对象的方法**，代理对象会在实际调用目标对象的方法前后添加切面功能，从而实现了 AOP 的效果。
+
+Spring AOP 支持两种代理模型：**JDK 动态代理和 CGLIB 代理**。在 JDK 动态代理中，代理对象需要**实现与目标对象相同的接口**，在 CGLIB 代理中，代理对象是**通过扩展目标对象类**来实现的，通常使用 CGLIB 代理的场景是当目标对象没有接口时。
+
+**AOP的实现依赖的是spring拓展点中的BeanPostProcessor的后置处理方法**
+1. 代理对象的创建过程（advice，切面，切点）
+2. 通过jdk或者cglib的方式来生成代理对象
+3. 在执行方法调用的时候，会调用到生成的字节码文件中，直接回找到。dynamicAdvisorInterceptor类中的intercept方法，从此 方法开始执行
+4. 根据之前定义好的通知来生成拦截器链
+5. 从拦截器链中依次获取每一个通知开始进行执行，在执行过程中，为了方便找到下一个通知是哪个，会有一个 CglibMethod Invocation的对象，找的时候是从一1的位置一次开始查找并且执行的。
+## cglib为什么不能代理private,final
+https://heapdump.cn/article/3333875
+
+**cglib是通过动态生成代理类的子类实现代理功能****，所生成的子类重写了代理类的所有方法（不包括final方法，至于private方法后文会讲到），cglib生成的子类中再通过方法拦截的方式实现对代理类方法的代码织入。**
+
+**说到这，重点来了，cglib实质上是通过继承父类并重写父类的方法达到生成代理类的，那么自然的，final类和final方法一定无法通过cglib代理，在生成的class文件中也不会找到对应的final方法。**
