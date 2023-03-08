@@ -2,6 +2,29 @@
 
 **如果sql本身没什么问题，并发量导致   考虑使用缓存**
 
+## 查询慢sql日志
+```bash
+（1）设置开启：SET GLOBAL slow_query_log = 1;　　　#默认未开启，开启会影响性能，mysql重启会失效
+（2）查看是否开启：SHOW VARIABLES LIKE '%slow_query_log%';
+（3）设置阈值：SET GLOBAL long_query_time=3;
+（4）查看阈值：SHOW 【GLOBAL】 VARIABLES LIKE 'long_query_time%';　　#重连或新开一个会话才能看到修改值
+（5）通过修改配置文件my.cnf永久生效，在[mysqld]下配置：
+　　[mysqld]
+　　slow_query_log = 1;　　#开启
+　　slow_query_log_file=/var/lib/mysql/atguigu-slow.log　　　#慢日志地址，缺省文件名host_name-slow.log
+　　long_query_time=3;　　  #运行时间超过该值的SQL会被记录，默认值>10
+　　log_output=FILE
+```
+
+如果我们的慢SQL很多，人工分析肯定分析不过来，这时候我们就需要借助一些分析工具，MySQL自带了一个慢查询分析工具mysqldumpslow，以下是常见使用示例
+
+```markup
+mysqldumpslow ­s c ­t 10 /var/run/mysqld/mysqld­slow.log # 取出使用最多的10条慢查询
+mysqldumpslow ­s t ­t 3 /var/run/mysqld/mysqld­slow.log # 取出查询时间最慢的3条慢查询
+mysqldumpslow ­s t ­t 10 ­g “left join” /database/mysql/slow­log #得到按照时间排序的前10条里面含有左连接的查询语句
+mysqldumpslow ­s r ­t 10 ­g 'left join' /var/run/mysqld/mysqldslow.log # 按照扫描行数最多的
+```
+
 ### explain
 https://www.cnblogs.com/zjxiang/p/9160564.html
 
@@ -77,3 +100,95 @@ https://xie.infoq.cn/article/469900fb8757d181892384335
 12.  #杀掉锁表进程
 13.  kill 进程号
 ```
+
+### SQL语句常见优化
+
+https://heapdump.cn/article/3892198
+
+只要简单了解过MySQL内部优化机制，就很容易写出高性能的SQL
+
+  
+**1.不使用子查询：**
+
+```markup
+SELECT * FROM t1 WHERE id (SELECT id FROM t2 WHERE name='hechunyang');
+```
+
+在MySQL5.5版本中，内部执行计划器是先查外表再匹配内表，如果外表数据量很大，查询速度会非常慢  
+在MySQL5.6中，有对内查询做了优化，优化后SQL如下
+
+```markup
+SELECT t1.* FROM t1 JOIN t2 ON t1.id = t2.id;
+```
+
+但也仅针对select语句有效，update、delete子查询无效，所以生成环境不建议使用子查询
+
+  
+**2.避免函数索引**
+
+```markup
+SELECT * FROM t WHERE YEAR(d) >= 2016;
+```
+
+即使d字段有索引，也会全盘扫描，应该优化为：
+
+```markup
+SELECT * FROM t WHERE d >= '2016-01-01';
+```
+
+  
+**3.使用IN替换OR**
+
+```markup
+SELECT * FROM t WHERE LOC_ID = 10 OR LOC_ID = 20 OR LOC_ID = 30;
+```
+
+非聚簇索引走了3次，使用IN之后只走一次：
+
+```markup
+SELECT * FROM t WHERE LOC_IN IN (10,20,30);
+```
+
+  
+**4.LIKE双百分号无法使用到索引**
+
+```markup
+SELECT * FROM t WHERE name LIKE '%de%';
+```
+
+应优化为右模糊
+
+```markup
+SELECT * FROM t WHERE name LIKE 'de%';
+```
+
+**5.增加LIMIT M,N 限制读取的条数**
+
+**6.避免数据类型不一致**
+
+```markup
+SELECT * FROM t WHERE id = '19';
+```
+
+应优化为
+
+```markup
+SELECT * FROM t WHERE id = 19;
+```
+
+  
+**7.分组统计时可以禁止排序**
+
+```markup
+SELECT goods_id,count(*) FROM t GROUP BY goods_id;
+```
+
+默认情况下MySQL会对所有GROUP BY co1，col2 …的字段进行排序，我们可以对其使用ORDER BY NULL禁止排序，避免排序消耗资源
+
+```markup
+SELECT goods_id,count(*) FROM t GROUP BY goods_id ORDER BY NULL;
+```
+
+  
+**8.去除不必要的ORDER BY语句**
+
