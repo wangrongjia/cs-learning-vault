@@ -20,12 +20,12 @@
             }
           },
           {
-            "id": "f19091f387db29a3",
+            "id": "039cb73300fff90b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "02-编程语言/01-JAVA/03-spring/05-事务.md",
+                "file": "02-编程语言/01-JAVA/04-springboot/01-启动过程.md",
                 "mode": "source",
                 "source": false
               }
@@ -172,12 +172,23 @@
   },
   "active": "774ddbd1f0b9beaf",
   "lastOpenFiles": [
-    "02-编程语言/01-JAVA/03-spring/05-事务.md",
+    "02-编程语言/01-JAVA/04-springboot/01-启动过程.md",
+    "02-编程语言/01-JAVA/04-springboot/未命名.md",
     "98-面试技巧/01-面试记录.md",
+    "02-编程语言/01-JAVA/04-springboot/02-循环依赖.md",
+    "04-数据库/01-mysql/05-读写分离.md",
+    "04-数据库/03-分布式数据库/01-sharding-sphere/00-概览.md",
+    "04-数据库/03-分布式数据库/01-sharding-sphere",
+    "04-数据库/03-分布式数据库",
+    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
+    "02-编程语言/01-JAVA/03-spring/02-DI.md",
+    "05-中间件/03-redis/04-缓存击穿(失效)，穿透，雪崩.md",
+    "05-中间件/03-redis/05-redis持久化.md",
+    "05-中间件/03-redis/assets/redis主从同步机制.png",
+    "05-中间件/03-redis/assets/布隆过滤器.png",
+    "02-编程语言/01-JAVA/03-spring/05-事务.md",
     "02-编程语言/01-JAVA/01-集合/01-map.md",
     "04-数据库/01-mysql/04-索引失效场景.md",
-    "05-中间件/03-redis/04-缓存击穿(失效)，穿透，雪崩.md",
-    "05-中间件/03-redis/assets/布隆过滤器.png",
     "05-中间件/03-redis/assets/缓存击穿.png",
     "05-中间件/03-redis/assets/RedLock,集群部署示意图.png",
     "05-中间件/03-redis/03-分布式锁.md",
@@ -193,30 +204,19 @@
     "02-编程语言/01-JAVA/02-多线程/03-ThreadLocal.md",
     "02-编程语言/01-JAVA/01-集合/02-线程安全的集合.md",
     "02-编程语言/01-JAVA/03-spring/04-AOP.md",
-    "02-编程语言/01-JAVA/03-spring/02-DI.md",
     "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md",
     "02-编程语言/01-JAVA/02-多线程/02-多线程.md",
     "02-编程语言/01-JAVA/02-多线程/assets/Pasted image 20230306161707.png",
     "02-编程语言/01-JAVA/02-多线程/assets/Pasted image 20230306161651.png",
-    "02-编程语言/01-JAVA/01-集合/assets/hashmap的put操作流程图.png",
     "02-编程语言/01-JAVA/01-集合/assets",
     "02-编程语言/01-JAVA/02-多线程/06-synchronized.md",
     "02-编程语言/01-JAVA/02-多线程/07-线程-集合.md",
-    "06-分布式架构/01-微服务/03-负载均衡.md",
-    "06-分布式架构/01-微服务/01-微服务划分依据.md",
-    "98-面试技巧/02-介绍项目.md",
-    "02-编程语言/01-JAVA/03-spring/03-IOC.md",
-    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
-    "02-编程语言/01-JAVA/03-spring/0401-aop.md",
-    "05-中间件/02-mq/01-rocketmq/00-rocketmq基本使用.md",
     "02-编程语言/01-JAVA/06-jvm/assets",
     "02-编程语言/01-JAVA/06-jvm",
     "04-数据库/02-oracle",
     "04-数据库/01-mysql/assets",
     "95-产线实践",
     "05-中间件/03-redis/assets",
-    "05-中间件/03-redis",
-    "96-计算机原理/01-操作系统",
-    "96-计算机原理"
+    "05-中间件/03-redis"
   ]
 }
