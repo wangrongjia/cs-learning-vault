@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md",
+                "file": "00-obsidian的使用/02-基础设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md",
+                "file": "00-obsidian的使用/02-基础设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md"
+                "file": "00-obsidian的使用/02-基础设置.md"
               }
             }
           },
@@ -171,8 +170,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a948ef895174e353",
+  "active": "e47f516109badb1f",
   "lastOpenFiles": [
+    "00-obsidian的使用/03-插件.md",
     "00-obsidian的使用/02-基础设置.md",
     "00-obsidian的使用/assets/Pasted image 20221226135034.png",
     "00-obsidian的使用/assets/Pasted image 20221228165318.png",
