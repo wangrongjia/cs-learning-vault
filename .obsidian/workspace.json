@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a948ef895174e353",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-obsidian的使用/03-插件.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md",
+                "file": "00-obsidian的使用/03-插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md",
+                "file": "00-obsidian的使用/03-插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md"
+                "file": "00-obsidian的使用/03-插件.md"
               }
             }
           },
@@ -158,12 +171,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c823e3ac3528c411",
+  "active": "a948ef895174e353",
   "lastOpenFiles": [
+    "00-obsidian的使用/02-基础设置.md",
     "00-obsidian的使用/assets/Pasted image 20221226135034.png",
     "00-obsidian的使用/assets/Pasted image 20221228165318.png",
     "00-obsidian的使用/assets/use wikiLink.png",
-    "00-obsidian的使用/02-基础设置.md",
     "04-数据库/02-oracle/02-头表主表.md",
     "97-运维/99-ansible.md",
     "97-运维/02-监控/01-Prometheus(普罗米修斯).md",
@@ -201,7 +214,6 @@
     "05-中间件/03-redis/assets/缓存击穿.png",
     "05-中间件/03-redis/assets/RedLock,集群部署示意图.png",
     "05-中间件/03-redis/03-分布式锁.md",
-    "05-中间件/03-redis/assets/缓存穿透.png",
     "04-数据库/01-mysql/03-事务.md",
     "04-数据库/01-mysql/02-慢sql,锁表问题.md",
     "02-编程语言/01-JAVA/01-集合/assets",
