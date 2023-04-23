@@ -7,5 +7,7 @@
   "livePreview": true,
   "spellcheck": false,
   "spellcheckLanguages": null,
-  "promptDelete": false
+  "promptDelete": false,
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true
 }

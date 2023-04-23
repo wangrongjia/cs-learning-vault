@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9a2f84e7670c72e1",
+        "id": "5ad951735765a154",
         "type": "tabs",
         "children": [
           {
-            "id": "b221a5e5c382f2c3",
+            "id": "e47f516109badb1f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "97-运维/99-ansible.md",
+                "file": "00-obsidian的使用/02-基础设置.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "97-运维/99-ansible.md",
+                "file": "00-obsidian的使用/02-基础设置.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "97-运维/99-ansible.md",
+                "file": "00-obsidian的使用/02-基础设置.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "97-运维/99-ansible.md"
+                "file": "00-obsidian的使用/02-基础设置.md"
               }
             }
           },
@@ -158,10 +158,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b221a5e5c382f2c3",
+  "active": "c823e3ac3528c411",
   "lastOpenFiles": [
-    "97-运维/02-监控/01-Prometheus(普罗米修斯).md",
+    "00-obsidian的使用/assets/Pasted image 20221226135034.png",
+    "00-obsidian的使用/assets/Pasted image 20221228165318.png",
+    "00-obsidian的使用/assets/use wikiLink.png",
+    "00-obsidian的使用/02-基础设置.md",
+    "04-数据库/02-oracle/02-头表主表.md",
     "97-运维/99-ansible.md",
+    "97-运维/02-监控/01-Prometheus(普罗米修斯).md",
     "97-运维/02-监控",
     "94-业务相关/01-财务系统/01-收单.md",
     "94-业务相关/01-财务系统",
@@ -197,13 +202,8 @@
     "05-中间件/03-redis/assets/RedLock,集群部署示意图.png",
     "05-中间件/03-redis/03-分布式锁.md",
     "05-中间件/03-redis/assets/缓存穿透.png",
-    "04-数据库/01-mysql/assets/Pasted image 20230308081545.png",
-    "04-数据库/01-mysql/assets/Pasted image 20230308081514.png",
     "04-数据库/01-mysql/03-事务.md",
     "04-数据库/01-mysql/02-慢sql,锁表问题.md",
-    "04-数据库/01-mysql/01-索引结构.md",
-    "04-数据库/01-mysql/01-索引.md",
-    "02-编程语言/01-JAVA/03-spring/098-常用注解.md",
     "02-编程语言/01-JAVA/01-集合/assets",
     "02-编程语言/01-JAVA/06-jvm/assets"
   ]
