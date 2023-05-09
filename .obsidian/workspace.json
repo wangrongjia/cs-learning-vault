@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06-分布式架构/01-微服务/04-DDD.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01558a86eb32b412",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "94-业务相关/01-财务系统/01-收单.md",
+                "file": "93-gpt/autoGPT.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "94-业务相关/01-财务系统/01-收单.md",
+                "file": "93-gpt/autoGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "94-业务相关/01-财务系统/01-收单.md",
+                "file": "93-gpt/autoGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "94-业务相关/01-财务系统/01-收单.md"
+                "file": "93-gpt/autoGPT.md"
               }
             }
           }
@@ -163,26 +150,28 @@
       "workspaces:管理工作区布局": false
     }
   },
-  "active": "01558a86eb32b412",
+  "active": "27b93de903de8696",
   "lastOpenFiles": [
+    "93-gpt/assets/topRichByChatGPT.png",
+    "93-gpt/assets/forbes.png",
+    "93-gpt/assets/topRichByAutoGPT.png",
+    "93-gpt/autoGPT.md",
+    "93-gpt/assets/autogpt-任务到指令.png",
+    "93-gpt/assets/Pasted image 20230509091818.png",
+    "93-gpt/assets/拆解目标.png",
+    "06-分布式架构/01-微服务/04-DDD.md",
+    "94-业务相关/01-财务系统/01-收单.md",
     "97-运维/02-监控/01-Prometheus(普罗米修斯).md",
     "97-运维/02-监控",
-    "93-gpt/assets/topRichByChatGPT.png",
     "93-gpt/assets/autoGPT总结.png",
     "93-gpt/assets/autoGPT区别.svg",
     "93-gpt/assets/autoGPTstar.svg",
-    "93-gpt/autoGPT.md",
     "93-gpt/assets",
     "93-gpt",
     "04-数据库/02-oracle/02-头表主表.md",
     "00-obsidian的使用/assets/use wikiLink.png",
-    "06-分布式架构/01-微服务/04-DDD.md",
-    "94-业务相关/01-财务系统/01-收单.md",
     "94-业务相关/01-财务系统",
     "94-业务相关",
-    "97-运维/assets/ansible中的概念映射到CICD流程中.svg",
-    "97-运维/00-一些概念/assets/什么是制品.png",
-    "97-运维/00-一些概念/assets/制品在流程中.png",
     "97-运维/99-ansible.md"
   ]
 }
