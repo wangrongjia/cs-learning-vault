@@ -64,5 +64,25 @@ autoGPT:
 ![](assets/forbes.png)
 
 ---
+
+结论：对于需要实时联网的时效性问题的解答，autoGPT因为可以联网，所以准确性是可以保证的，但是chatGPT也会推出联网的插件，用上插件后这个优势就几乎没有了
+
+---
+
+### 2. 问一个开放性的问题
+至今为止，对人类影响最大的人是谁，列出原因
+
+chatGPT:
+![](assets/开放性问题-chat1.png)
+
+---
+
+![](开放性问题-chat2.png)
+
+autoGPT:
+
+---
+
+---
 ## 总结：
 ![autoGPT总结](assets/autoGPT总结.png)
