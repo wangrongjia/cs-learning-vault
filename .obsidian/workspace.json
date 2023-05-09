@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md",
+                "file": "93-gpt/autoGPT.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,6 +76,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b6892845b7bcf95d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -108,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md",
+                "file": "93-gpt/autoGPT.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md",
+                "file": "93-gpt/autoGPT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-obsidian的使用/02-基础设置.md"
+                "file": "93-gpt/autoGPT.md"
               }
             }
           },
@@ -167,13 +175,23 @@
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "e47f516109badb1f",
+  "active": "c823e3ac3528c411",
   "lastOpenFiles": [
-    "00-obsidian的使用/03-插件.md",
+    "93-gpt/assets/topRichByChatGPT.png",
+    "93-gpt/assets/autoGPT区别.svg",
+    "93-gpt/assets/autoGPTstar.svg",
+    "93-gpt/assets/autoGPT总结.png",
+    "93-gpt/assets",
+    "00-obsidian的使用/01-markdown语法.md",
+    "93-gpt/autoGPT.md",
+    "93-gpt",
+    "00-obsidian的使用/obsidian的使用.canvas",
     "00-obsidian的使用/02-基础设置.md",
+    "00-obsidian的使用/03-插件.md",
     "00-obsidian的使用/assets/Pasted image 20221226135034.png",
     "00-obsidian的使用/assets/Pasted image 20221228165318.png",
     "00-obsidian的使用/assets/use wikiLink.png",
@@ -207,16 +225,8 @@
     "05-中间件/03-redis/04-缓存击穿(失效)，穿透，雪崩.md",
     "05-中间件/03-redis/05-redis持久化.md",
     "05-中间件/03-redis/assets/redis主从同步机制.png",
-    "05-中间件/03-redis/assets/布隆过滤器.png",
     "02-编程语言/01-JAVA/03-spring/05-事务.md",
     "02-编程语言/01-JAVA/01-集合/01-map.md",
-    "04-数据库/01-mysql/04-索引失效场景.md",
-    "05-中间件/03-redis/assets/缓存击穿.png",
-    "05-中间件/03-redis/assets/RedLock,集群部署示意图.png",
-    "05-中间件/03-redis/03-分布式锁.md",
-    "04-数据库/01-mysql/03-事务.md",
-    "04-数据库/01-mysql/02-慢sql,锁表问题.md",
-    "02-编程语言/01-JAVA/01-集合/assets",
-    "02-编程语言/01-JAVA/06-jvm/assets"
+    "04-数据库/01-mysql/04-索引失效场景.md"
   ]
 }
