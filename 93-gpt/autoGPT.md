@@ -79,9 +79,23 @@ chatGPT:
 
 ![](开放性问题-chat2.png)
 
+---
+
 autoGPT:
+1. 浏览网站
+![](assets/疯狂搜索列表.png)
 
 ---
+
+2. 最终的网站是： https://www.ranker.com/crowdranked-list/the-most-influential-people-of-all-time
+3. 网站给出的rank list被autogpt采纳,但是它想重新排名，写了个Python脚本，结果得出了网站上一样的排名
+
+---
+
+结论：
+这种开放性的问题
+chatGPT是怎么给出答案的，我们并不知道，只知道它有出色的自然语言理解能力和海量的语料库，通过预测模型给出了答案;
+autoGPT你可以看到思考的过程，但是这个过程也挺扯淡，通过问gpt，得到了一些臆想的网站，然后挨个去访问，访问通了就得到结果了？并且执行缓慢，程序容易出错，思路有一定借鉴意义
 
 ---
 ## 总结：
