@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "93-gpt/autoGPT.md",
+                "file": "93-gpt/01-使用记录/20230717-职业规划.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "93-gpt/autoGPT.md",
+                "file": "93-gpt/01-使用记录/20230717-职业规划.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "93-gpt/autoGPT.md",
+                "file": "93-gpt/01-使用记录/20230717-职业规划.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "93-gpt/autoGPT.md"
+                "file": "93-gpt/01-使用记录/20230717-职业规划.md"
               }
             }
           },
@@ -181,8 +181,11 @@
   },
   "active": "e47f516109badb1f",
   "lastOpenFiles": [
-    "93-gpt/assets/autoGPT区别.svg",
+    "93-gpt/Untitled.md",
+    "93-gpt/01-使用记录/20230717-职业规划.md",
+    "93-gpt/01-使用记录",
     "93-gpt/autoGPT.md",
+    "93-gpt/assets/autoGPT区别.svg",
     "93-gpt/assets/使用对比.png",
     "93-gpt/assets/附件预览-chat.jpg",
     "93-gpt/assets/疯狂搜索列表.png",
@@ -192,7 +195,6 @@
     "93-gpt/assets/topRichByAutoGPT.png",
     "93-gpt/assets/forbes.png",
     "93-gpt/assets/autogpt-任务到指令.png",
-    "93-gpt/assets/topRichByChatGPT.png",
     "93-gpt/assets",
     "00-obsidian的使用/01-markdown语法.md",
     "93-gpt",
@@ -220,13 +222,11 @@
     "04-数据库/01-mysql/05-读写分离.md",
     "04-数据库/03-分布式数据库/01-sharding-sphere/00-概览.md",
     "04-数据库/03-分布式数据库/01-sharding-sphere",
-    "04-数据库/03-分布式数据库",
     "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
     "02-编程语言/01-JAVA/03-spring/02-DI.md",
     "05-中间件/03-redis/04-缓存击穿(失效)，穿透，雪崩.md",
     "05-中间件/03-redis/05-redis持久化.md",
     "02-编程语言/01-JAVA/03-spring/05-事务.md",
-    "02-编程语言/01-JAVA/01-集合/01-map.md",
-    "04-数据库/01-mysql/04-索引失效场景.md"
+    "02-编程语言/01-JAVA/01-集合/01-map.md"
   ]
 }
