@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5ad951735765a154",
+        "id": "6349363a95922157",
         "type": "tabs",
         "children": [
           {
-            "id": "e47f516109badb1f",
+            "id": "2f7b07ddb93a11c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "93-gpt/01-使用记录/20230717-职业规划.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a948ef895174e353",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "00-obsidian的使用/03-插件.md",
+                "file": "04-数据库/04-迁移工具/01-flyway.md",
                 "mode": "source",
                 "source": false
               }
@@ -116,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "93-gpt/01-使用记录/20230717-职业规划.md",
+                "file": "04-数据库/04-迁移工具/01-flyway.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "93-gpt/01-使用记录/20230717-职业规划.md",
+                "file": "04-数据库/04-迁移工具/01-flyway.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "93-gpt/01-使用记录/20230717-职业规划.md"
+                "file": "04-数据库/04-迁移工具/01-flyway.md"
               }
             }
           },
@@ -179,12 +167,30 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "e47f516109badb1f",
+  "active": "2f7b07ddb93a11c1",
   "lastOpenFiles": [
+    "02-编程语言/02-SSH/01-阮一峰SSH/02-SSH客户端.md",
+    "04-数据库/04-迁移工具/01-flyway.md",
+    "04-数据库/04-迁移工具",
+    "02-编程语言/02-SSH/01-阮一峰SSH/01-基本知识.md",
     "93-gpt/Untitled.md",
-    "93-gpt/01-使用记录/20230717-职业规划.md",
-    "93-gpt/01-使用记录",
+    "02-编程语言/02-SSH/Untitled.md",
+    "02-编程语言/02-SSH/01-阮一峰SSH",
+    "02-编程语言/02-SSH",
     "93-gpt/autoGPT.md",
+    "93-gpt/01-使用记录/20230717-职业规划.md",
+    "06-分布式架构/01-微服务/04-DDD.md",
+    "06-分布式架构/99-雪花id.md",
+    "06-分布式架构/01-微服务/03-负载均衡.md",
+    "06-分布式架构/01-微服务/01-微服务划分依据.md",
+    "01-数据结构与算法/未命名.canvas",
+    "README.md",
+    "99-个人博客/01-hexo/hexo.md",
+    "96-计算机原理/01-操作系统/02-linux常用命令.md",
+    "96-计算机原理/01-操作系统/01-linux线程间同步的方式.md",
+    "95-产线实践/01-慢接口.md",
+    "94-业务相关/01-财务系统/01-收单.md",
+    "93-gpt/01-使用记录",
     "93-gpt/assets/autoGPT区别.svg",
     "93-gpt/assets/使用对比.png",
     "93-gpt/assets/附件预览-chat.jpg",
@@ -205,28 +211,11 @@
     "97-运维/99-ansible.md",
     "97-运维/02-监控/01-Prometheus(普罗米修斯).md",
     "97-运维/02-监控",
-    "94-业务相关/01-财务系统/01-收单.md",
     "94-业务相关/01-财务系统",
     "94-业务相关",
-    "06-分布式架构/01-微服务/04-DDD.md",
     "97-运维/01-容器化/01-docker/01-docker入门.md",
     "97-运维/().md",
     "97-运维/00-一些概念/01-制品.md",
-    "97-运维/assets",
-    "97-运维/00-一些概念/assets",
-    "97-运维/00-一些概念",
-    "98-面试技巧/01-面试记录.md",
-    "02-编程语言/01-JAVA/04-springboot/01-启动过程.md",
-    "02-编程语言/01-JAVA/04-springboot/未命名.md",
-    "02-编程语言/01-JAVA/04-springboot/02-循环依赖.md",
-    "04-数据库/01-mysql/05-读写分离.md",
-    "04-数据库/03-分布式数据库/01-sharding-sphere/00-概览.md",
-    "04-数据库/03-分布式数据库/01-sharding-sphere",
-    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
-    "02-编程语言/01-JAVA/03-spring/02-DI.md",
-    "05-中间件/03-redis/04-缓存击穿(失效)，穿透，雪崩.md",
-    "05-中间件/03-redis/05-redis持久化.md",
-    "02-编程语言/01-JAVA/03-spring/05-事务.md",
-    "02-编程语言/01-JAVA/01-集合/01-map.md"
+    "97-运维/assets"
   ]
 }
