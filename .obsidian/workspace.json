@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-数据库/04-迁移工具/01-flyway.md",
+                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-数据库/04-迁移工具/01-flyway.md",
+                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-数据库/04-迁移工具/01-flyway.md",
+                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-数据库/04-迁移工具/01-flyway.md"
+                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md"
               }
             }
           },
@@ -169,8 +169,9 @@
   },
   "active": "2f7b07ddb93a11c1",
   "lastOpenFiles": [
-    "02-编程语言/02-SSH/01-阮一峰SSH/02-SSH客户端.md",
     "04-数据库/04-迁移工具/01-flyway.md",
+    "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
+    "02-编程语言/02-SSH/01-阮一峰SSH/02-SSH客户端.md",
     "04-数据库/04-迁移工具",
     "02-编程语言/02-SSH/01-阮一峰SSH/01-基本知识.md",
     "93-gpt/Untitled.md",
@@ -215,7 +216,6 @@
     "94-业务相关",
     "97-运维/01-容器化/01-docker/01-docker入门.md",
     "97-运维/().md",
-    "97-运维/00-一些概念/01-制品.md",
     "97-运维/assets"
   ]
 }
