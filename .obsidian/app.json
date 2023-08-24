@@ -2,12 +2,13 @@
   "attachmentFolderPath": "./assets",
   "newFileLocation": "current",
   "trashOption": "local",
-  "alwaysUpdateLinks": true,
+  "alwaysUpdateLinks": false,
   "showLineNumber": false,
   "livePreview": true,
   "spellcheck": false,
   "spellcheckLanguages": null,
   "promptDelete": false,
   "useMarkdownLinks": true,
-  "showUnsupportedFiles": true
+  "showUnsupportedFiles": true,
+  "newLinkFormat": "relative"
 }
