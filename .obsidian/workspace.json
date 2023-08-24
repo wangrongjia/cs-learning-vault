@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6349363a95922157",
+        "id": "3c83e6af5f8cfe0d",
         "type": "tabs",
         "children": [
           {
-            "id": "2f7b07ddb93a11c1",
+            "id": "9c291d216f598563",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
+                "file": "00-obsidian的使用/03-插件.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
+                "file": "00-obsidian的使用/03-插件.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
+                "file": "00-obsidian的使用/03-插件.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md"
+                "file": "00-obsidian的使用/03-插件.md"
               }
             }
           },
@@ -167,13 +167,18 @@
       "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "2f7b07ddb93a11c1",
+  "active": "9c291d216f598563",
   "lastOpenFiles": [
-    "04-数据库/04-迁移工具/01-flyway.md",
+    "00-obsidian的使用/Listary.exe.md",
+    "00-obsidian的使用/03-插件.md",
+    "00-obsidian的使用/02-基础设置.md",
+    "00-obsidian的使用/01-markdown语法.md",
+    "00-obsidian的使用/AnyDesk.exe.md",
     "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
+    "02-编程语言/02-SSH/01-阮一峰SSH/01-基本知识.md",
+    "04-数据库/04-迁移工具/01-flyway.md",
     "02-编程语言/02-SSH/01-阮一峰SSH/02-SSH客户端.md",
     "04-数据库/04-迁移工具",
-    "02-编程语言/02-SSH/01-阮一峰SSH/01-基本知识.md",
     "93-gpt/Untitled.md",
     "02-编程语言/02-SSH/Untitled.md",
     "02-编程语言/02-SSH/01-阮一峰SSH",
@@ -203,19 +208,14 @@
     "93-gpt/assets/forbes.png",
     "93-gpt/assets/autogpt-任务到指令.png",
     "93-gpt/assets",
-    "00-obsidian的使用/01-markdown语法.md",
     "93-gpt",
     "00-obsidian的使用/obsidian的使用.canvas",
-    "00-obsidian的使用/02-基础设置.md",
-    "00-obsidian的使用/03-插件.md",
     "04-数据库/02-oracle/02-头表主表.md",
     "97-运维/99-ansible.md",
     "97-运维/02-监控/01-Prometheus(普罗米修斯).md",
     "97-运维/02-监控",
     "94-业务相关/01-财务系统",
     "94-业务相关",
-    "97-运维/01-容器化/01-docker/01-docker入门.md",
-    "97-运维/().md",
     "97-运维/assets"
   ]
 }
