@@ -6,7 +6,7 @@ https://zhuanlan.zhihu.com/p/79219960
 hashMap 链表+数组 扩容时，需要从新计算hash,线程1和2同时进入扩容操作，2挂起，1扩容完毕，2继续，导致环形链表，get操作就会死循环
 
 put流程图
-![[hashmap的put操作流程图.png]]
+![](hashmap的put操作流程图.png)
 
 ### 使用hashmap要注意哪些问题
 避免hash冲突 重写hashCode equals

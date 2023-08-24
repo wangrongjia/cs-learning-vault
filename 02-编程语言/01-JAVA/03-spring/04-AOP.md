@@ -89,7 +89,6 @@ public class ObjectInterceptor implements InvocationHandler{
 　　6.proxy 代理类：通知+切入点
 
 　　7. Aspect(切面): 是切入点pointcut和通知advice的结合
-![1](_v_images/_1_1536722621_13680.png)
 
 ## AOP 的通知类型　
 　Spring按照通知Advice在目标类方法的连接点位置，可以分为5类

@@ -6,7 +6,7 @@ Bean 的生命周期概括起来就是 **4 个阶段**：
 3.  初始化（Initialization）
 4.  销毁（Destruction）
 ### 生命周期一览图
-![[bean的生命周期.png]]
+![](bean的生命周期.png)
 
 -   实例化：第 1 步，利用反射实例化一个 bean 对象，分配内存空间；
     

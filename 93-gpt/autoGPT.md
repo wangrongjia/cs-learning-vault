@@ -11,11 +11,11 @@ AutoGPT，一个全自动可联网的AI机器人，只需给它设定一个或�
 Auto-GPT和ChatGPT的主要区别是，Auto-GPT可以**自主运作，不需要人类代理**，而ChatGPT需要大量详细的提示来完成任务。Auto-GPT生成自己的提示以完成给定的目标，**并可以访问网站和搜索引擎来收集数据以完成任务**。相比之下，ChatGPT需要具体的提示来确定它要做什么以及做得怎么样。Auto-GPT建立在ChatGPT的框架上，但有能力自己做决定，这是ChatGPT所不具备的功能
 
 ---
-![autoGPT区别](assets/autoGPT区别.svg)
+![autoGPT区别](autoGPT区别.svg)
 
 ---
 ## 十分火热
-![autoGPTstar](assets/autoGPTstar.svg)
+![autoGPTstar](autoGPTstar.svg)
 
 
 ---
@@ -34,29 +34,29 @@ Q:找到现今世界上最有钱的十个人，列出他们的姓名，性别，
 
 chatGPT：
 直接给出答案
-![](assets/topRichByChatGPT.png)
+![](topRichByChatGPT.png)
 
 ---
 autoGPT:
 分析问题并逐步执行，然后给出结果：
 
 1. 任务拆解：
-![](assets/拆解目标.png)
+![](拆解目标.png)
 
 ---
 
 2. 任务-->具体的指令
-![](assets/autogpt-任务到指令.png)
+![](autogpt-任务到指令.png)
 
 ---
 
 3. 保存到csv
-![](assets/topRichByAutoGPT.png)
+![](topRichByAutoGPT.png)
 
 ---
 
 4. 查看福布斯官网对比下结果
-![](assets/forbes.png)
+![](forbes.png)
 
 ---
 
@@ -68,7 +68,7 @@ autoGPT:
 至今为止，对人类影响最大的人是谁，列出原因
 
 chatGPT:
-![](assets/开放性问题-chat1.png)
+![](开放性问题-chat1.png)
 
 ---
 
@@ -78,7 +78,7 @@ chatGPT:
 
 autoGPT:
 1. 浏览网站
-![](assets/疯狂搜索列表.png)
+![](疯狂搜索列表.png)
 
 ---
 
@@ -103,7 +103,7 @@ autoGPT你可以看到思考的过程，但是这个过程也挺扯淡，通过�
 
 chatGPT:
 给出了代码  但是不能用，意料之内
-![](assets/附件预览-chat.jpg)
+![](附件预览-chat.jpg)
 
 ---
 
@@ -149,8 +149,8 @@ autoGPT看似能解决复杂的问题，但是实际可用性很差，只能说�
 
 https://www.youtube.com/watch?v=u0j_9Upb0w8&ab_channel=%E6%95%A3%E6%AD%A5%E7%9A%84%E5%BD%AD%E5%AF%BC
 
-![](assets/使用对比.png)
+![](使用对比.png)
 
 ---
 
-![autoGPT总结](assets/autoGPT总结.png)
+![autoGPT总结](autoGPT总结.png)

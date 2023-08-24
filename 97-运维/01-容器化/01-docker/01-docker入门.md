@@ -46,7 +46,7 @@ $ git clone https://github.com/ruanyf/koa-demos.git
 $ cd koa-demos
 ```
 源码大致如下：
-![[Pasted image 20230226222414.png]]
+![](Pasted%20image%2020230226222414.png)
 ### 2. 编写dockerfile
 ```bash
 FROM node:8.4

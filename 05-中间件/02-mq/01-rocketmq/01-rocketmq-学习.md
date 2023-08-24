@@ -58,10 +58,10 @@ flushDiskType = SYNC_FLUSH
 | 适用场景                                                                | -                                               | RabbitMQ 支持优先级队列     | kafka 更加擅长于日志、大数据计算、流式计算等场景                                                                | RocketMQ 提供了消息重试、消息过滤、消息轨迹、消息检索等功能特性，特别是 RocketMQ 的消息检索功能，因此 RocketMQ 很适合核心业务场景 | -                      |
 
 **rocketmq模型关系图**
-![[rocketmq模型关系图.png]]
+![](rocketmq模型关系图.png)
 ## rocketMQ架构
 **rocketmq架构图**
-![[rocketmq架构图.png]]
+![](rocketmq架构图.png)
 -   **NameServer**: 提供轻量级的服务发现和路由。 每个 NameServer 记录完整的路由信息，提供等效的读写服务，并支持快速存储扩展。
 -   **Broker**: 通过提供轻量级的 Topic 和 Queue 机制来处理消息存储,同时支持推（push）和拉（pull）模式以及主从结构的容错机制。
 -   **Producer**：生产者，产生消息的实例，拥有相同 Producer Group 的 Producer 组成一个集群。
