@@ -1,8 +1,8 @@
 {
   "accentColor": "#262136",
-  "theme": "system",
+  "theme": "moonstone",
   "showViewHeader": true,
   "translucency": false,
   "baseFontSize": 17,
-  "cssTheme": "Things"
+  "cssTheme": "Blue Topaz"
 }

@@ -2,12 +2,16 @@
   "table-editor-obsidian",
   "obsidian-git",
   "oz-image-plugin",
-  "media-extended",
   "obsidian-annotator",
   "obsidian-to-anki-plugin",
   "obsidian-image-toolkit",
   "markdown-prettifier",
   "drawio-obsidian",
   "digitalgarden",
-  "consistent-attachments-and-links"
+  "consistent-attachments-and-links",
+  "media-extended",
+  "calendar",
+  "file-tree-alternative",
+  "obsidian-file-color",
+  "cm-typewriter-scroll-obsidian"
 ]
