@@ -1,8 +1,11 @@
 {
-  "accentColor": "#262136",
+  "accentColor": "#213634",
   "theme": "moonstone",
   "showViewHeader": true,
   "translucency": false,
-  "baseFontSize": 17,
-  "cssTheme": "Blue Topaz"
+  "baseFontSize": 19,
+  "cssTheme": "Blue Topaz",
+  "textFontFamily": "微软雅黑",
+  "interfaceFontFamily": "微软雅黑",
+  "monospaceFontFamily": "微软雅黑"
 }

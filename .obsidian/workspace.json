@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7abaefdcb067d6a",
+        "id": "d3f4b07cd85569f5",
         "type": "tabs",
         "children": [
           {
-            "id": "7f6074ac6b2e2cf7",
+            "id": "22c5bf45863ed6ae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md",
+                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "k8s",
+                "query": "snippet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md",
+                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md",
+                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-obsidian的使用/03-插件.md"
+                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md"
               }
             }
           },
@@ -167,7 +167,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 281.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,58 +182,59 @@
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "digitalgarden:Digital Garden Publication Center": false,
-      "file-tree-alternative:File Tree Alternative Plugin": false
+      "file-tree-alternative:File Tree Alternative Plugin": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "77a2660c7f6cd88c",
+  "active": "22c5bf45863ed6ae",
   "lastOpenFiles": [
-    "07-工具/01-anki/anki基本使用.md",
-    "00-obsidian的使用/02-基础设置.md",
-    "07-工具/01-anki",
-    "07-工具",
+    "00-obsidian的使用/99-剪藏/01-插件的开发.md",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-f9355631221939305b119ee6a5d3ae8b.webp",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-e2361ad1338d9cffd79b0529ecf9e4ee.webp",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-e1e6e95e7047cd8843141d79deb5f5b1.svg",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-de58250495870a13bf4ea1484fb1997d.webp",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-dc567be19ec6bac525abcc7ebe8a03d2.svg",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-d753a1c173e8cbd338155a3c09ad2a81.jpg",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-d73b4078e3b5a1eebca0eba6ef9b5152.svg",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-d33f41bea20cd7b85f5fbc5de77a3f16.webp",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-c41857deeccda66281424c93dbafd3af.svg",
+    "00-obsidian的使用/99-剪藏/assets/1693209248-b900399e566025f20795dbb807af0992.jpg",
+    "00-obsidian的使用/99-剪藏/assets",
+    "00-obsidian的使用/99-剪藏/index.md",
+    "00-obsidian的使用/99-剪藏/zx.md",
+    "00-obsidian的使用/99-剪藏/01-obsidian插件开发.md",
+    "00-obsidian的使用/99-剪藏",
+    "03-web/04-浏览器/02-浏览器插件/01-浏览器插件.md",
+    "03-web/99-开发工具/01-vscode和webstorm.md",
+    "assets/1693201684-88fe52f7a585d783c803df54dabba948.gif.md",
+    "assets",
+    "03-web/99-开发工具/assets",
+    "03-web/99-开发工具/index.md",
+    "03-web/04-浏览器/02-浏览器插件/assets",
+    "03-web/99-开发工具/01-开发工具对比.md",
+    "03-web/99-开发工具/01-开发工具对比",
+    "03-web/99-开发工具/d20ed477-4500-4873-8101-70d6f66dd09d",
+    "03-web/99-开发工具/assets/5dd93771-c3b9-4d5d-ae2b-fcd066235497.json",
+    "03-web/99-开发工具/新建文件夹",
+    "02-编程语言/01-JAVA/00-基础/01-xx.md",
+    "03-web/99-开发工具/default",
+    "03-web/99-开发工具/00-开发工具对比.md",
+    "03-web/04-浏览器/01-chrome/01-devtool.md",
     "00-obsidian的使用/03-插件.md",
+    "00-obsidian的使用/01-markdown语法.md",
+    "00-obsidian的使用/02-基础设置.md",
+    "00-obsidian的使用/Drawing 2023-08-25 16.30.44.excalidraw.md",
+    "97-运维/99-ansible.md",
+    "Excalidraw/Drawing 2023-08-25 17.03.10.excalidraw.md",
+    "02-编程语言/01-JAVA/00-基础/00-基本类型.md",
+    "02-编程语言/01-JAVA/00-基础/Untitled mindmap.md",
+    "07-工具/01-anki/anki基本使用.md",
     "98-面试技巧/01-面试记录.md",
     "98-面试技巧/02-介绍项目.md",
     "97-运维/01-容器化/01-docker/01-docker入门.md",
     "02-编程语言/01-JAVA/03-spring/04-AOP.md",
     "94-业务相关/01-财务系统/01-收单.md",
-    "02-编程语言/01-JAVA/06-jvm/01-JVM启动参数.md",
-    "02-编程语言/01-JAVA/06-jvm/04-类加载机制.md",
-    "00-obsidian的使用/assets/实测！房东送的五级能效空调，到底赚走多少电费？.mp4",
-    "00-obsidian的使用/assets/实测！房东送的五级能效空调，到底赚走多少电费？ 1.mp4",
-    "_v_images/线程状态图_1535977846_25296.png.md",
-    "consistant-report.md",
-    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md",
-    "96-计算机原理/01-操作系统/02-linux常用命令.md",
-    "00-obsidian的使用/assets/Pasted image 20221226135034.png",
-    "00-obsidian的使用/assets/use wikiLink.png",
-    "97-运维/99-ansible.md",
-    "02-编程语言/01-JAVA/06-jvm/00-总览.md",
-    "00-obsidian的使用/01-markdown语法.md",
-    "00-obsidian的使用/是指掌握多种技能，并能利用多种技能独立完成产品的人。.md",
     "00-obsidian的使用/obsidian的使用.canvas",
-    "00-obsidian的使用/assets/Pasted image 20221228165318.png",
-    "00-obsidian的使用/Listary.exe.md",
-    "00-obsidian的使用/AnyDesk.exe.md",
-    "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md",
-    "02-编程语言/02-SSH/01-阮一峰SSH/01-基本知识.md",
-    "04-数据库/04-迁移工具/01-flyway.md",
-    "02-编程语言/02-SSH/01-阮一峰SSH/02-SSH客户端.md",
-    "04-数据库/04-迁移工具",
-    "93-gpt/Untitled.md",
-    "02-编程语言/02-SSH/Untitled.md",
-    "02-编程语言/02-SSH/01-阮一峰SSH",
-    "02-编程语言/02-SSH",
-    "01-数据结构与算法/未命名.canvas",
-    "93-gpt/01-使用记录",
-    "93-gpt/autoGPT区别.svg",
-    "93-gpt/使用对比.png",
-    "93-gpt/附件预览-chat.jpg",
-    "93-gpt/疯狂搜索列表.png",
-    "93-gpt/开放性问题-chat2.png",
-    "93-gpt/开放性问题-chat1.png",
-    "93-gpt/拆解目标.png",
-    "93-gpt/assets",
-    "93-gpt"
+    "01-数据结构与算法/未命名.canvas"
   ]
 }
