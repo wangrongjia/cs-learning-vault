@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md",
-                "mode": "source",
+                "file": "02-编程语言/01-JAVA/99-实践/01-附件预览(office转html).md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -113,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md",
+                "file": "02-编程语言/01-JAVA/99-实践/01-附件预览(office转html).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md",
+                "file": "02-编程语言/01-JAVA/99-实践/01-附件预览(office转html).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00-obsidian的使用/99-剪藏/01-插件的开发.md"
+                "file": "02-编程语言/01-JAVA/99-实践/01-附件预览(office转html).md"
               }
             }
           },
@@ -181,7 +181,6 @@
       "random-note:Open random note": false,
       "workspaces:Manage workspace layouts": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "file-tree-alternative:File Tree Alternative Plugin": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
@@ -189,6 +188,8 @@
   "active": "22c5bf45863ed6ae",
   "lastOpenFiles": [
     "00-obsidian的使用/99-剪藏/01-插件的开发.md",
+    "02-编程语言/01-JAVA/99-实践/01-附件预览(office转html).md",
+    "02-编程语言/01-JAVA/99-实践",
     "00-obsidian的使用/99-剪藏/assets/1693209248-f9355631221939305b119ee6a5d3ae8b.webp",
     "00-obsidian的使用/99-剪藏/assets/1693209248-e2361ad1338d9cffd79b0529ecf9e4ee.webp",
     "00-obsidian的使用/99-剪藏/assets/1693209248-e1e6e95e7047cd8843141d79deb5f5b1.svg",
@@ -217,7 +218,6 @@
     "03-web/99-开发工具/assets/5dd93771-c3b9-4d5d-ae2b-fcd066235497.json",
     "03-web/99-开发工具/新建文件夹",
     "02-编程语言/01-JAVA/00-基础/01-xx.md",
-    "03-web/99-开发工具/default",
     "03-web/99-开发工具/00-开发工具对比.md",
     "03-web/04-浏览器/01-chrome/01-devtool.md",
     "00-obsidian的使用/03-插件.md",
@@ -233,7 +233,6 @@
     "98-面试技巧/02-介绍项目.md",
     "97-运维/01-容器化/01-docker/01-docker入门.md",
     "02-编程语言/01-JAVA/03-spring/04-AOP.md",
-    "94-业务相关/01-财务系统/01-收单.md",
     "00-obsidian的使用/obsidian的使用.canvas",
     "01-数据结构与算法/未命名.canvas"
   ]
