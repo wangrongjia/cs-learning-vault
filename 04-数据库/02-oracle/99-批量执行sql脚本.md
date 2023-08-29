@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 想写一个bat  ，批量执行脚本
 ```bash
 sqlplus jubt/jubt@orcl @list.sql>log.txt Exit;

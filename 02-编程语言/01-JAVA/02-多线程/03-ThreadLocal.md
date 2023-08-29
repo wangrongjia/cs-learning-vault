@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ThreadLocal出现OOM内存溢出的场景和原理分析:https://blog.csdn.net/GoGleTech/article/details/78318712
 
 ## ThreadLocal使用场景

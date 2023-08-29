@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## 1. 结合springboot
   
 下面是一个使用 Spring Boot 和 RocketMQ 的消费消息的代码示例：

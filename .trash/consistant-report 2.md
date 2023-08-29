@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Bad links (4 files)
 [98-面试技巧/01-面试记录.md](98-面试技巧/01-面试记录.md): 
 - (line 7): `01-rocketmq-学习#rocketmq怎么确保消息不丢失`

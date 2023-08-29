@@ -1,4 +1,7 @@
 ---
+dg-publish: true
+---
+---
 dg-publish: true 
 dg-home: true
 ---

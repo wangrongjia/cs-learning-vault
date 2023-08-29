@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 Spring IOC容器是Spring框架的核心，它的源码解析可以让我们深入了解Spring框架的设计思想和实现原理。下面是Spring IOC的源码解析：
 
 1.  **BeanFactory**接口：BeanFactory是Spring IOC容器的核心接口，**它定义了容器的基本功能和操作方法**。其中，**getBean**方法是最重要的方法之一，它用于**获取容器中的Bean实例**对象。

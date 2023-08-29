@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## ansible是什么
 
 是RedHat提供的一个工具: [ansible.com](http://ansible.com)

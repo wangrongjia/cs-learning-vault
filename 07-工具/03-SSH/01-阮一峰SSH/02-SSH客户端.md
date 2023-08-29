@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## 简介 [#](https://wangdoc.com/ssh/client#%E7%AE%80%E4%BB%8B)[](https://wangdoc.com/ssh/client#navbar)
 
 OpenSSH 的客户端是二进制程序 ssh。它在 Linux/Unix 系统的位置是`/usr/local/bin/ssh`。

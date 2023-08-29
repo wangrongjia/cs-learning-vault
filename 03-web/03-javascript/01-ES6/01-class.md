@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # class
 
 来源 ：https://es6.ruanyifeng.com/

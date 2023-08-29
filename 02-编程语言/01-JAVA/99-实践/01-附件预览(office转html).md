@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 demo:
 https://github.com/wangrongjia/online-preview
 

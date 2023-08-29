@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 # Bad links (1 files)
 [00-obsidian的使用/01-markdown语法.md](00-obsidian的使用/01-markdown语法.md): 
 - (line 135): `是指掌握多种技能，并能利用多种技能独立完成产品的人。`

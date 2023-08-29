@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 rocketMQ 是一种开源的分布式消息传递系统，其主要功能是在不同的应用程序之间进行异步消息传递。以下是一些学习 RocketMQ 的资源：
 
 1.  官方文档：RocketMQ 官方提供了详细的文档，包括快速入门、基本概念、架构设计、高级特性等。您可以在这里开始学习 RocketMQ：[http://rocketmq.apache.org/docs/quick-start/](http://rocketmq.apache.org/docs/quick-start/)

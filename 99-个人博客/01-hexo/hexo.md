@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 github  hexo
 hexo:
 官方文档：https://hexo.io/zh-cn/docs/

@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 ## autoGPT的简单介绍
 
 ---

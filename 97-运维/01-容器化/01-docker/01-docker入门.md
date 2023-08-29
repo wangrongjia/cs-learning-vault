@@ -1,3 +1,6 @@
+---
+dg-publish: true
+---
 https://www.ruanyifeng.com/blog/2018/02/docker-tutorial.html
 ## 01 docker是什么
 linux的容器化技术：**Linux 容器不是模拟一个完整的操作系统，而是对进程进行隔离。**
