@@ -1,7 +1,7 @@
 ---
 dg-publish: true
 ---
-## grep
+# grep
 `grep` 是一个在 Linux 和 Unix 系统中常用的命令行工具，用于搜索文本文件中的指定字符串，并将包含该字符串的行输出到屏幕上。
 
 下面是一些 `grep` 命令的用法举例：
@@ -47,3 +47,8 @@ grep -i "hello" file.txt
 ```
 
 上述命令将搜索名为 `file.txt` 的文件中的字符串 "hello"，并忽略大小写。
+
+# 截取日志
+```sh
+sed -n "/2023-11-07 08:55:00/,/$(date "+%Y-%m-%d %H:%M:%S")/p" tomcat20231030_181534.log > log.txt
+```

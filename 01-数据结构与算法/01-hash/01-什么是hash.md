@@ -1,0 +1,1 @@
+https://samwho.dev/hashing/
