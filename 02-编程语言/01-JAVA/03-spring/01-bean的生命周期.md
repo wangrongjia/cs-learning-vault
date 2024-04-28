@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 ## 生命周期
 Bean 的生命周期概括起来就是 **4 个阶段**：

@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 来源网址: https://fengrin.me/posts/2022-12-19-publish-your-website-free-use-your-local-note-obsidian-gitHub-netlify
 裁剪时间: 2023-08-29 10:29:15

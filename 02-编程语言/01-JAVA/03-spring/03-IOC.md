@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 IOC 让程序员不在关注怎么去创建对象，而是关注与对象创建之后的操作，把对象的创建、初始化、销毁等工作交给spring容器来做
 

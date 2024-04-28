@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 #  what's new in Java 8
 官网： http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html

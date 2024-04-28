@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 想写一个bat  ，批量执行脚本
 ```bash

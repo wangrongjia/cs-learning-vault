@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 ## autoGPT的简单介绍
 

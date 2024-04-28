@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 # grep
 `grep` 是一个在 Linux 和 Unix 系统中常用的命令行工具，用于搜索文本文件中的指定字符串，并将包含该字符串的行输出到屏幕上。

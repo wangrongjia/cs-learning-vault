@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 
 　　IOC-Inversion of Control，即控制反转。它不是什么技术，而是一种设计思想。

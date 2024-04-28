@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 Flyway 是一款开源的数据库版本管理工具
 现管理并跟踪数据库变更，**支持数据库版本自动升级**

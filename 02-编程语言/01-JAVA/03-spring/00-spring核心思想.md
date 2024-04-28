@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 Spring IOC容器是Spring框架的核心，它的源码解析可以让我们深入了解Spring框架的设计思想和实现原理。下面是Spring IOC的源码解析：
 

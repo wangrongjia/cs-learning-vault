@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 ## 启动参数
 这些参数是 Java 虚拟机启动参数，具体含义如下：

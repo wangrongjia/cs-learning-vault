@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 ## 简介 [#](https://wangdoc.com/ssh/client#%E7%AE%80%E4%BB%8B)[](https://wangdoc.com/ssh/client#navbar)
 

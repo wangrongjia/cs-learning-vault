@@ -1,5 +1,5 @@
 ---
-dg-publish: true
+dg-publish: false
 ---
 rocketMQ 是一种开源的分布式消息传递系统，其主要功能是在不同的应用程序之间进行异步消息传递。以下是一些学习 RocketMQ 的资源：
 
