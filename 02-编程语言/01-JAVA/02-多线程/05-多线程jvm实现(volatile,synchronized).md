@@ -99,7 +99,7 @@ JMM 的规定：
 
 JMM 的抽象示意图：
 
-![](JMM抽象示意图.png)
+![](assets/JMM抽象示意图.png)
 
 JMM 示意图
 

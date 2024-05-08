@@ -49,7 +49,7 @@ $ ssh remoteuser@remoteserver
 被管理的远程主机不需要安装特殊的包，只**需要python>2.4**，RedHat Linux一般安装方式都是默认安装的。
 
 **ansible中的概念映射到CICD流程中：** 
-![ansible中的概念映射到CICD流程中](ansible中的概念映射到CICD流程中.svg)
+![ansible中的概念映射到CICD流程中](assets/ansible中的概念映射到CICD流程中.svg)
 
 ### 3.  Ansible管理哪些主机（主机清单管理）
 ansible通过`Inventory(清单)`知晓自己需要管理哪些主机  这个清单默认存放在 `/etc/ansible/hosts`  目录下

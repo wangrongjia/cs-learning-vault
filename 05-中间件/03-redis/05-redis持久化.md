@@ -27,7 +27,7 @@ save 60 10000
 场景二：执行shutdown命令关闭服务器时，如果没有开启AOF持久化功能，那么会自动执行一次bgsave
 
 场景三：主从同步（slave和master建立同步机制）
-![](redis主从同步机制.png)
+![](assets/redis主从同步机制.png)
 
 ### 1.2 RDB执行流程
 
