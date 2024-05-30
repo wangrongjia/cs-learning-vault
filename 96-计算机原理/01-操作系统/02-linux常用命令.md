@@ -48,6 +48,14 @@ grep -i "hello" file.txt
 
 上述命令将搜索名为 `file.txt` 的文件中的字符串 "hello"，并忽略大小写。
 
+# ls 列出目录下文件
+
+## 查看更多信息
+```bash
+ls -l
+```
+
+# more 查看文件信息
 # 截取日志
 ```sh
 sed -n "/2023-11-07 08:55:00/,/$(date "+%Y-%m-%d %H:%M:%S")/p" tomcat20231030_181534.log > log.txt

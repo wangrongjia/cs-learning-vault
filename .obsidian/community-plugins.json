@@ -6,6 +6,8 @@
   "markdown-prettifier",
   "consistent-attachments-and-links",
   "media-extended",
-  "obsidian-file-color",
-  "digitalgarden"
+  "digitalgarden",
+  "obsidian-excalidraw-plugin",
+  "oz-image-plugin",
+  "obsidian-to-anki-plugin"
 ]
