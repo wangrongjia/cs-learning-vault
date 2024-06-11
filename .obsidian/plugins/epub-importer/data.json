@@ -1,0 +1,20 @@
+{
+  "tag": "epub",
+  "libraries": [
+    "D:\\github\\cs-learning-vault\\91-epub"
+  ],
+  "byDrag": true,
+  "savePath": "91-epub",
+  "assetsPath": "{{savePath}}/{{bookName}}/images",
+  "granularity": 3,
+  "mocName": "{{bookName}}",
+  "notePropertysTemplate": "",
+  "oneNote": true,
+  "oneFolder": true,
+  "mocPropertysTemplate": "title: {{bookName}}\nauthor: {{author}}\npublisher: {{publisher}}\nstatus: false",
+  "imageFormat": "![](imagePath)",
+  "autoOpenRightPanel": true,
+  "allbooks": true,
+  "removeDuplicateFolders": false,
+  "moreLog": false
+}

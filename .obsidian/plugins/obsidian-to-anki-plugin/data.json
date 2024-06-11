@@ -1,14 +1,16 @@
 {
   "settings": {
     "CUSTOM_REGEXPS": {
-      "Basic": "",
+      "Basic": "((?:[^\\n][\\n]?)+) #flashcard ?\\n*((?:\\n(?:^.{1,3}$|^.{4}(?<!<!--).*))+)",
       "Basic (and reversed card)": "",
       "Basic (optional reversed card)": "",
       "Basic (pic)": "",
       "Basic (type in the answer)": "",
       "Basic+": "",
       "Cloze": "",
-      "Image Occlusion": ""
+      "Image Occlusion": "",
+      "KaTeX and Markdown Basic": "",
+      "KaTeX and Markdown Cloze": ""
     },
     "FILE_LINK_FIELDS": {
       "Basic": "Front",
@@ -22,7 +24,7 @@
     },
     "CONTEXT_FIELDS": {},
     "FOLDER_DECKS": {
-      "00-obsidian的使用": "zzz",
+      "00-obsidian的使用": "",
       "01-数据结构与算法": "",
       "02-编程语言": "",
       "03-web": "",
@@ -102,10 +104,11 @@
       "03-web/04-浏览器/01-chrome/assets": "",
       "03-web/04-浏览器/02-浏览器插件/assets": "",
       "05-中间件/02-mq/01-rocketmq/assets": "",
-      "97-运维/01-容器化/01-docker/assets": ""
+      "97-运维/01-容器化/01-docker/assets": "",
+      "07-工具/01-anki/assets": ""
     },
     "FOLDER_TAGS": {
-      "00-obsidian的使用": "zzz",
+      "00-obsidian的使用": "",
       "01-数据结构与算法": "",
       "02-编程语言": "",
       "03-web": "",
@@ -185,7 +188,8 @@
       "03-web/04-浏览器/01-chrome/assets": "",
       "03-web/04-浏览器/02-浏览器插件/assets": "",
       "05-中间件/02-mq/01-rocketmq/assets": "",
-      "97-运维/01-容器化/01-docker/assets": ""
+      "97-运维/01-容器化/01-docker/assets": "",
+      "07-工具/01-anki/assets": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -200,21 +204,120 @@
     "Defaults": {
       "Scan Directory": "",
       "Tag": "Obsidian_to_Anki",
-      "Deck": "Default",
+      "Deck": "cs-learning",
       "Scheduling Interval": 0,
-      "Add File Link": false,
+      "Add File Link": true,
       "Add Context": false,
-      "CurlyCloze": false,
-      "CurlyCloze - Highlights to Clozes": false,
+      "CurlyCloze": true,
+      "CurlyCloze - Highlights to Clozes": true,
       "ID Comments": true,
-      "Add Obsidian Tags": false
+      "Add Obsidian Tags": true
     },
     "IGNORED_FILE_GLOBS": [
       "**/*.excalidraw.md"
     ]
   },
-  "Added Media": [],
-  "File Hashes": {},
+  "Added Media": [
+    "assets/Pasted image 20240531120152.png",
+    "assets/Pasted image 20221228165318.png"
+  ],
+  "File Hashes": {
+    "README.md": "b03be4a193b38332772b2baa74dfddb7",
+    "98-面试技巧/面试技巧.md": "97a4e6fb92270e0670bc0b2ceacd8020",
+    "98-面试技巧/02-介绍项目.md": "e23604e649a5b8a6610b669afc04618f",
+    "98-面试技巧/01-面试记录.md": "c4ee6c308be0786a2026b19591c8ed3a",
+    "99-个人博客/01-hexo/hexo.md": "479a8b5d2d82d1daba3ecb47dc17a505",
+    "97-运维/99-ansible.md": "24ac823e47b7d79d4729f300d8d554f3",
+    "97-运维/02-监控/01-Prometheus(普罗米修斯).md": "679df33f161aba1c1988b084b6e4015d",
+    "97-运维/01-容器化/01-docker/01-docker入门.md": "d9cd1ff63d5176d717bf8ed785444018",
+    "97-运维/00-一些概念/01-制品.md": "407eea38916d85bd833a42f1dbdd1f21",
+    "96-计算机原理/01-操作系统/03-常用脚本.md": "39ad204f7e2eaac6ad2b9b074a34c1ac",
+    "96-计算机原理/01-操作系统/02-linux常用命令.md": "93b2c0dd1661cce61ead44c2e3ae776b",
+    "96-计算机原理/01-操作系统/01-linux线程间同步的方式.md": "942460d2e77ba8d4baf875a5b0fe31e1",
+    "95-产线实践/01-慢接口.md": "951b48893eecb51e3c58c0c1fbf4876a",
+    "93-gpt/autoGPT.md": "806c96d8d88b4ce4f60e8eaf0a53e68d",
+    "93-gpt/01-使用记录/20230717-职业规划.md": "73c2be7c5338a483dc56ddb8f6be7a8f",
+    "94-业务相关/01-财务系统/01-收单.md": "1f31031dc625842183c1345a95398885",
+    "92-网络/01-socket/01-剪藏-socket.md": "0cc44dcbcea2cded9e59ec9023dff6c7",
+    "07-工具/03-SSH/02-常用脚本.md": "6a59e7cd6f5e3bea025fc80bc94e9541",
+    "07-工具/03-SSH/01-阮一峰SSH/02-SSH客户端.md": "12cf02dfe4397c59fabb29364cf300b7",
+    "07-工具/03-SSH/01-阮一峰SSH/01-基本知识.md": "b0e820f6e5a4b17eef3aaa23771673ef",
+    "07-工具/02-git/01-gitIgnore.md": "ca94505e1c6489361918a51ded2feac4",
+    "07-工具/01-anki/02-anki新手教程（剪藏）.md": "5a943bd4819c3da306cb0f07e8c494f1",
+    "07-工具/01-anki/01-anki基本使用.md": "aa6c331afa3665e2808deed97d27cfb8",
+    "05-中间件/03-redis/03-分布式锁.md": "2ac435c56de996bfbf95eae019114b36",
+    "05-中间件/03-redis/05-redis持久化.md": "89db463e7491d7dfdb84c153e5779e47",
+    "05-中间件/03-redis/04-缓存击穿(失效)，穿透，雪崩.md": "9bc8c50f668268fcb044437e136d50b1",
+    "05-中间件/02-mq/01-rocketmq/03-延迟消息.md": "b5442c5d2b34c0e14f1883b54b92ecdf",
+    "05-中间件/02-mq/01-rocketmq/02-事务消息.md": "1389c7413f0d2d3838e9fe3f538d17a1",
+    "05-中间件/02-mq/01-rocketmq/01-rocketmq-学习.md": "4d2818d7f1f0caf0e8a80b3bac03b537",
+    "05-中间件/02-mq/01-rocketmq/00-rocketmq基本使用.md": "9eb81a445bfa8c6d9e1a5171bb9ea744",
+    "05-中间件/01-es/01-es基本概念.md": "24e46cb9312875bb03a1004cb058c6e0",
+    "06-分布式架构/99-雪花id.md": "98bc7bc9f158f3643e4c4e671c289f1c",
+    "06-分布式架构/01-微服务/04-DDD.md": "3b79fd0b101cd0ccd7bdd420beb73613",
+    "06-分布式架构/01-微服务/03-负载均衡.md": "3b73e5c6cfc9d7e6bce0b35774627013",
+    "06-分布式架构/01-微服务/01-微服务划分依据.md": "f4efe40d9b519e2474423087532a8046",
+    "04-数据库/04-迁移工具/01-flyway.md": "4681f5c51c841d5bfc159dd43e572570",
+    "04-数据库/03-分布式数据库/01-sharding-sphere/00-概览.md": "e7ddf1bae1e75c4ef34c1fa689c661bc",
+    "04-数据库/02-oracle/98-oracle对特殊字符的处理的坑.md": "b0dcae3b3be0a8d460fc408a0f49235e",
+    "04-数据库/02-oracle/99-批量执行sql脚本.md": "29d3c49f32dcc09f1f51320581fdf7cd",
+    "04-数据库/02-oracle/02-头表主表.md": "a61987cc2807c41d306ea8c554734dbf",
+    "04-数据库/02-oracle/01-基本概念.md": "b720d154f108c2252eea5564cdb7d85e",
+    "04-数据库/01-mysql/05-读写分离.md": "da75ae68320e9e7c4bfb17b5b167b692",
+    "04-数据库/01-mysql/02-慢sql,锁表问题.md": "70a5c182f888ddb9678972b4e70ccf96",
+    "04-数据库/01-mysql/04-索引失效场景.md": "0c954c7323b6d449a7e43715d1621610",
+    "04-数据库/01-mysql/03-事务.md": "afc898f8e95e04c68977a3f57ead09c5",
+    "04-数据库/01-mysql/01-索引结构.md": "163aa28cb694e68c3bb619cd40ed068a",
+    "04-数据库/01-mysql/01-索引.md": "33a0a68d48afcf1671cd7d07105e7e30",
+    "03-web/99-开发工具/01-vscode和webstorm.md": "c06b5c6b3ebc23c7f4df5257d58e0df6",
+    "03-web/04-浏览器/02-浏览器插件/01-浏览器插件.md": "64a8388f9ebe9ab9b5d60eb2dcd3f73a",
+    "03-web/04-浏览器/01-chrome/01-devtool.md": "b9683848366541e283662a30297c646e",
+    "03-web/03-javascript/02-深拷贝.md": "5d2af4fe797ac9a2b2bab2b6f7956d50",
+    "03-web/03-javascript/01-ES6/03-数组.md": "ba37fa393c840b6b1203044fbcce0434",
+    "03-web/03-javascript/01-ES6/02-严格模式.md": "db949ab0313322c8ce78c6c9c42e497d",
+    "03-web/03-javascript/01-ES6/01-class.md": "a5b39da5051e6ca31d42f343902b3950",
+    "03-web/02-css/01-white-space.md": "3ccc0d469ec279518ecf0e3990d9c2b2",
+    "01-数据结构与算法/01-hash/01-什么是hash.md": "e8f073d2df4a879d938dc7e0e74acd3f",
+    "02-编程语言/02-python/01-国内镜像.md": "cde7cf01b0e3db3453d47322edc5af11",
+    "02-编程语言/01-JAVA/99-实践/01-附件预览(office转html).md": "324c12599b16c986c49b93738a07b579",
+    "02-编程语言/01-JAVA/06-jvm/04-类加载机制.md": "9ae69f2c2fbbb5ab307bc0a1c247c2b6",
+    "02-编程语言/01-JAVA/06-jvm/03-垃圾回收.md": "9ae69f2c2fbbb5ab307bc0a1c247c2b6",
+    "02-编程语言/01-JAVA/06-jvm/02-内存分配.md": "9ae69f2c2fbbb5ab307bc0a1c247c2b6",
+    "02-编程语言/01-JAVA/06-jvm/01-JVM启动参数.md": "94034f41bd2ed1181a61a8efcc53faad",
+    "02-编程语言/01-JAVA/06-jvm/00-总览.md": "ce4af521ff45350e8e947275717f35ad",
+    "02-编程语言/01-JAVA/05-mybatis/未命名.md": "56dcb9bd27b7975799badf292c6ea651",
+    "02-编程语言/01-JAVA/04-springboot/未命名.md": "9ae69f2c2fbbb5ab307bc0a1c247c2b6",
+    "02-编程语言/01-JAVA/04-springboot/02-循环依赖.md": "19bdc3e319538665793aa35ff09f0be0",
+    "02-编程语言/01-JAVA/04-springboot/01-启动过程.md": "0b5faec45fd654349396685871010746",
+    "02-编程语言/01-JAVA/02-多线程/07-线程-集合.md": "df5fc525f7c048ae0c4ec451535b50b9",
+    "02-编程语言/01-JAVA/02-多线程/06-synchronized.md": "e172bab5695b86f5b0a5f135492bfc9a",
+    "02-编程语言/01-JAVA/02-多线程/05-多线程jvm实现(volatile,synchronized).md": "d0bead3046457e673a2d078686fccfe9",
+    "02-编程语言/01-JAVA/02-多线程/04-线程池ThreadPoolExecutor.md": "5654344ffd98a83c80b1c04f7c8b6bfc",
+    "02-编程语言/01-JAVA/02-多线程/03-ThreadLocal.md": "10615e05b34402a47fc3c3dc8f362a1a",
+    "02-编程语言/01-JAVA/02-多线程/02-多线程.md": "77af43cb18727a989fa9557426c611fc",
+    "02-编程语言/01-JAVA/03-spring/99-其他.md": "addef4d2bc91e5017e35f6d6118b5424",
+    "02-编程语言/01-JAVA/03-spring/098-常用注解.md": "a92125f63bd2b506ceb968e6828f3b82",
+    "02-编程语言/01-JAVA/03-spring/06-springMVC.md": "676be4d3ad11da1f153a9d3080b4b86c",
+    "02-编程语言/01-JAVA/03-spring/05-事务.md": "6831e9c69c950c4fa57398cd0e535432",
+    "02-编程语言/01-JAVA/03-spring/04-AOP.md": "8dcc75d0c7871badefc1d699a054407f",
+    "02-编程语言/01-JAVA/03-spring/03-IOC.md": "d10f0b73525949714f556ad29262970a",
+    "02-编程语言/01-JAVA/03-spring/02-DI.md": "51526c0874f6cfb8e8a4262104c624a1",
+    "02-编程语言/01-JAVA/03-spring/00-spring核心思想.md": "e5ed92e044f2910bfbd9d88f63a5c40d",
+    "02-编程语言/01-JAVA/03-spring/01-bean的生命周期.md": "c54f23dacfbdc24f6e45f2bf697ff092",
+    "02-编程语言/01-JAVA/03-spring/00-spring.md": "fee4b8da4c20ced8881819e0533b842e",
+    "02-编程语言/01-JAVA/01-集合/02-线程安全的集合.md": "17ab62dcbed8818886415bab9b4d57a3",
+    "02-编程语言/01-JAVA/01-集合/01-map.md": "cc4891a54d7647c03211c0545f31d268",
+    "02-编程语言/01-JAVA/01-JDK版本特性/01-java8特性.md": "0bece12167fdf2761325095e8c5bbbd0",
+    "02-编程语言/01-JAVA/00-基础/Untitled mindmap.md": "c52eb82823a7e33226f497de2e8cdd0c",
+    "02-编程语言/01-JAVA/00-基础/01-xx.md": "e9471d4126189a7a8d5710fd402b42cb",
+    "02-编程语言/01-JAVA/00-基础/00-基本类型.md": "8ca674308faedf7f3ac2c700cb3b2273",
+    "00-obsidian的使用/99-剪藏/02-免费直接把笔记发布成网站Obsidian&GitHub&Netlify.md": "112440527e2929410b100df893cbbc4d",
+    "00-obsidian的使用/99-剪藏/01-插件的开发.md": "dff2695456dd902f036e6e0c3c750d76",
+    "00-obsidian的使用/04-test_obsidian_to_anki.md": "717b9356819e389e25d12c9e398ae7b3",
+    "00-obsidian的使用/03-插件.md": "a7e8cbadc1bbab158136d660a3b408a4",
+    "00-obsidian的使用/02-基础设置.md": "31e1fbb5bd1a08e529358ba5d92906dd",
+    "00-obsidian的使用/01-markdown语法.md": "f87197ca045f48e71330f831fbe88c7a"
+  },
   "fields_dict": {
     "Basic": [
       "Front",
@@ -251,6 +354,14 @@
       "Header",
       "Back Extra",
       "Comments"
+    ],
+    "KaTeX and Markdown Basic": [
+      "Front",
+      "Back"
+    ],
+    "KaTeX and Markdown Cloze": [
+      "Text",
+      "Back Extra"
     ]
   }
 }
