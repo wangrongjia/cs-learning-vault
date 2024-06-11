@@ -219,7 +219,8 @@
   },
   "Added Media": [
     "assets/Pasted image 20240531120152.png",
-    "assets/Pasted image 20221228165318.png"
+    "assets/Pasted image 20221228165318.png",
+    "assets/ls-l一图解释.png"
   ],
   "File Hashes": {
     "README.md": "b03be4a193b38332772b2baa74dfddb7",
@@ -232,7 +233,7 @@
     "97-运维/01-容器化/01-docker/01-docker入门.md": "d9cd1ff63d5176d717bf8ed785444018",
     "97-运维/00-一些概念/01-制品.md": "407eea38916d85bd833a42f1dbdd1f21",
     "96-计算机原理/01-操作系统/03-常用脚本.md": "39ad204f7e2eaac6ad2b9b074a34c1ac",
-    "96-计算机原理/01-操作系统/02-linux常用命令.md": "93b2c0dd1661cce61ead44c2e3ae776b",
+    "96-计算机原理/01-操作系统/02-linux常用命令.md": "b341a7957676d8915753f936f4baf537",
     "96-计算机原理/01-操作系统/01-linux线程间同步的方式.md": "942460d2e77ba8d4baf875a5b0fe31e1",
     "95-产线实践/01-慢接口.md": "951b48893eecb51e3c58c0c1fbf4876a",
     "93-gpt/autoGPT.md": "806c96d8d88b4ce4f60e8eaf0a53e68d",
@@ -314,9 +315,11 @@
     "00-obsidian的使用/99-剪藏/02-免费直接把笔记发布成网站Obsidian&GitHub&Netlify.md": "112440527e2929410b100df893cbbc4d",
     "00-obsidian的使用/99-剪藏/01-插件的开发.md": "dff2695456dd902f036e6e0c3c750d76",
     "00-obsidian的使用/04-test_obsidian_to_anki.md": "717b9356819e389e25d12c9e398ae7b3",
-    "00-obsidian的使用/03-插件.md": "a7e8cbadc1bbab158136d660a3b408a4",
+    "00-obsidian的使用/03-插件.md": "d4872e565e0b84abc0dcba972282d817",
     "00-obsidian的使用/02-基础设置.md": "31e1fbb5bd1a08e529358ba5d92906dd",
-    "00-obsidian的使用/01-markdown语法.md": "f87197ca045f48e71330f831fbe88c7a"
+    "00-obsidian的使用/01-markdown语法.md": "f87197ca045f48e71330f831fbe88c7a",
+    "AllBooks.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "96-计算机原理/01-操作系统/04-shell-basic.md": "19e8e939a4b5ebefd1cdb434c3621b9c"
   },
   "fields_dict": {
     "Basic": [
