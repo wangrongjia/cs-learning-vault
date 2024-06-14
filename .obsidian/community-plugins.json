@@ -2,13 +2,8 @@
   "table-editor-obsidian",
   "obsidian-git",
   "obsidian-annotator",
-  "obsidian-image-toolkit",
-  "markdown-prettifier",
   "consistent-attachments-and-links",
-  "media-extended",
   "digitalgarden",
   "obsidian-excalidraw-plugin",
-  "oz-image-plugin",
-  "obsidian-to-anki-plugin",
-  "epub-importer"
+  "oz-image-plugin"
 ]

@@ -3,7 +3,7 @@
   "newFileLocation": "current",
   "trashOption": "local",
   "alwaysUpdateLinks": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "livePreview": true,
   "spellcheck": false,
   "spellcheckLanguages": null,
