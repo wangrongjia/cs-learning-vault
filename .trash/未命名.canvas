@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"3ca6263cde1b98a0","x":-270,"y":-305,"width":250,"height":60,"type":"file","file":"02-编程语言/01-JAVA/多线程.md"},
-		{"id":"8c46470531348ad0","x":-523,"y":-184,"width":96,"height":60,"type":"text","text":"JAVA"}
-	],
-	"edges":[]
-}
