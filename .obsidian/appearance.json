@@ -4,8 +4,9 @@
   "showViewHeader": true,
   "translucency": false,
   "baseFontSize": 19,
-  "cssTheme": "Minimal",
+  "cssTheme": "Blue Topaz",
   "textFontFamily": "微软雅黑",
   "interfaceFontFamily": "微软雅黑",
-  "monospaceFontFamily": "微软雅黑"
+  "monospaceFontFamily": "微软雅黑",
+  "baseFontSizeAction": true
 }

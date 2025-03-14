@@ -10,5 +10,9 @@
   "epub-importer",
   "slurp",
   "obsidian-read-it-later",
-  "obsidian-pluck"
+  "obsidian-pluck",
+  "webpage-html-export",
+  "file-explorer-note-count",
+  "folder-notes",
+  "obsidian-to-anki-plugin"
 ]

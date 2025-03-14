@@ -105,7 +105,9 @@
       "03-web/04-浏览器/02-浏览器插件/assets": "",
       "05-中间件/02-mq/01-rocketmq/assets": "",
       "97-运维/01-容器化/01-docker/assets": "",
-      "07-工具/01-anki/assets": ""
+      "07-工具/01-anki/assets": "",
+      "05-中间件/04-nginx": "",
+      "96-计算机原理/01-操作系统/assets": ""
     },
     "FOLDER_TAGS": {
       "00-obsidian的使用": "",
@@ -189,7 +191,9 @@
       "03-web/04-浏览器/02-浏览器插件/assets": "",
       "05-中间件/02-mq/01-rocketmq/assets": "",
       "97-运维/01-容器化/01-docker/assets": "",
-      "07-工具/01-anki/assets": ""
+      "07-工具/01-anki/assets": "",
+      "05-中间件/04-nginx": "",
+      "96-计算机原理/01-操作系统/assets": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -226,7 +230,7 @@
     "README.md": "b03be4a193b38332772b2baa74dfddb7",
     "98-面试技巧/面试技巧.md": "97a4e6fb92270e0670bc0b2ceacd8020",
     "98-面试技巧/02-介绍项目.md": "e23604e649a5b8a6610b669afc04618f",
-    "98-面试技巧/01-面试记录.md": "c4ee6c308be0786a2026b19591c8ed3a",
+    "98-面试技巧/01-面试记录.md": "f11245090f7c20d8c2b3fa030f810ece",
     "99-个人博客/01-hexo/hexo.md": "479a8b5d2d82d1daba3ecb47dc17a505",
     "97-运维/99-ansible.md": "24ac823e47b7d79d4729f300d8d554f3",
     "97-运维/02-监控/01-Prometheus(普罗米修斯).md": "679df33f161aba1c1988b084b6e4015d",
@@ -307,7 +311,7 @@
     "02-编程语言/01-JAVA/03-spring/01-bean的生命周期.md": "c54f23dacfbdc24f6e45f2bf697ff092",
     "02-编程语言/01-JAVA/03-spring/00-spring.md": "fee4b8da4c20ced8881819e0533b842e",
     "02-编程语言/01-JAVA/01-集合/02-线程安全的集合.md": "17ab62dcbed8818886415bab9b4d57a3",
-    "02-编程语言/01-JAVA/01-集合/01-map.md": "cc4891a54d7647c03211c0545f31d268",
+    "02-编程语言/01-JAVA/01-集合/01-map.md": "ea62e954caf5c2c01fbf32153ff94645",
     "02-编程语言/01-JAVA/01-JDK版本特性/01-java8特性.md": "0bece12167fdf2761325095e8c5bbbd0",
     "02-编程语言/01-JAVA/00-基础/Untitled mindmap.md": "c52eb82823a7e33226f497de2e8cdd0c",
     "02-编程语言/01-JAVA/00-基础/01-xx.md": "e9471d4126189a7a8d5710fd402b42cb",
@@ -319,7 +323,16 @@
     "00-obsidian的使用/02-基础设置.md": "31e1fbb5bd1a08e529358ba5d92906dd",
     "00-obsidian的使用/01-markdown语法.md": "f87197ca045f48e71330f831fbe88c7a",
     "AllBooks.md": "d41d8cd98f00b204e9800998ecf8427e",
-    "96-计算机原理/01-操作系统/04-shell-basic.md": "19e8e939a4b5ebefd1cdb434c3621b9c"
+    "96-计算机原理/01-操作系统/04-shell-basic.md": "19e8e939a4b5ebefd1cdb434c3621b9c",
+    "96-计算机原理/01-操作系统/04-常用脚本.md": "39ad204f7e2eaac6ad2b9b074a34c1ac",
+    "96-计算机原理/01-操作系统/01-linux.md": "37aa1d816a8baecdcb5d88bf90c1311b",
+    "96-计算机原理/01-操作系统/05-shell-basic.md": "9e3dff07632d8b2ef0f42fb8268474ce",
+    "96-计算机原理/01-操作系统/03-linux常用命令.md": "db44a767199c639b542671539fa9956b",
+    "96-计算机原理/01-操作系统/02-linux线程间同步的方式.md": "942460d2e77ba8d4baf875a5b0fe31e1",
+    "05-中间件/04-nginx/Untitled.md": "b9cb19e4077891cc4bf5ff72db896382",
+    "02-编程语言/01-JAVA/06-jvm/000-medium.md": "92bd98db91f5f4cb8c9e7245afd1d242",
+    "02-编程语言/01-JAVA/06-jvm/www.baidu.com.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "02-编程语言/01-JAVA/06-jvm/0001.md": "2afec703912d3d5305c89152f5080cf0"
   },
   "fields_dict": {
     "Basic": [
